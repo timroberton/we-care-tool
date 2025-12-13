@@ -5,3 +5,5 @@
 
 // API response types have been moved to _302_query
 // Import from _302_query instead of _304_query
+
+export {};

@@ -178,7 +178,7 @@ export class Csv<T> {
   mapCols<R>(fn: (colVals: T[], colIdx: number) => R[]): Csv<R> {
     if (this.nRows === 0) {
       return new Csv({
-        data: [],
+        aoa: [],
         colHeaders: this.colHeaders,
         rowHeaders: this.rowHeaders,
       });
@@ -242,7 +242,7 @@ export class Csv<T> {
 
     if (this.nRows === 0) {
       return new Csv({
-        data: [],
+        aoa: [],
         colHeaders: this.rowHeaders,
         rowHeaders: this.colHeaders,
       });

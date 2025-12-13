@@ -37,7 +37,7 @@ export function parseMarkdown(markdownContent: string): ParsedMarkdown {
       let j = i + 1;
       while (j < tokens.length && tokens[j].type !== "blockquote_close") {
         if (tokens[j].type === "inline") {
-          content.push(...parseInlineTokens(tokens[j].children || []));
+          content.push(...parseInlineTokens((tokens[j].children || []) as MarkdownItToken[]));
           if (
             j + 1 < tokens.length &&
             tokens[j + 1].type !== "blockquote_close" &&
@@ -58,7 +58,7 @@ export function parseMarkdown(markdownContent: string): ParsedMarkdown {
         items.push({
           type: "heading",
           level,
-          content: parseInlineTokens(contentToken.children || []),
+          content: parseInlineTokens((contentToken.children || []) as MarkdownItToken[]),
         });
       }
       i += 2;
@@ -68,7 +68,7 @@ export function parseMarkdown(markdownContent: string): ParsedMarkdown {
       if (contentToken && contentToken.type === "inline") {
         items.push({
           type: "paragraph",
-          content: parseInlineTokens(contentToken.children || []),
+          content: parseInlineTokens((contentToken.children || []) as MarkdownItToken[]),
         });
       }
       i += 2;
@@ -92,7 +92,7 @@ export function parseMarkdown(markdownContent: string): ParsedMarkdown {
             level: listLevel,
             isFirstInList: false,
             isLastInList: false,
-            content: parseInlineTokens(tokens[j].children || []),
+            content: parseInlineTokens((tokens[j].children || []) as MarkdownItToken[]),
           };
 
           if (inNumberedList) {
