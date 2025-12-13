@@ -76,7 +76,7 @@ npm run typecheck    # Run TypeScript type checking
 
 ```
 src/
-├── components/       # UI components
+├── components/      # UI components
 ├── routes/          # Page components
 ├── stores/          # State management
 ├── calc_funcs/      # Model calculation logic
