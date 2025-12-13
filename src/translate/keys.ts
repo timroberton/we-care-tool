@@ -387,4 +387,8 @@ export type TranslationKey =
   | "CSV file is empty"
   | "CSV must have a 'BASE' column"
   | "Invalid number value"
-  | "Invalid percentage value";
+  | "Invalid percentage value"
+  | "You have not yet created any scenarios, so this report will concern the base case only."
+  | "e.g., Compare family planning outcomes across all scenarios"
+  | "e.g., Summarize the baseline abortion care pathways and outcomes"
+  | "e.g., Add a section comparing safety outcomes, or change the tone to be more technical";

@@ -374,5 +374,9 @@ export const TRANSLATIONS_FR = new Map<string, string>([
   ["CSV file is empty", "Le fichier CSV est vide"],
   ["CSV must have a 'BASE' column", "Le CSV doit avoir une colonne 'BASE'"],
   ["Invalid number value", "Valeur numérique invalide"],
-  ["Invalid percentage value", "Valeur de pourcentage invalide"]
+  ["Invalid percentage value", "Valeur de pourcentage invalide"],
+  ["You have not yet created any scenarios, so this report will concern the base case only.", "Vous n'avez pas encore créé de scénarios, ce rapport concernera donc uniquement le cas de base."],
+  ["e.g., Compare family planning outcomes across all scenarios", "ex. Comparer les résultats de la planification familiale dans tous les scénarios"],
+  ["e.g., Summarize the baseline abortion care pathways and outcomes", "ex. Résumer les parcours de soins d'avortement et les résultats du cas de base"],
+  ["e.g., Add a section comparing safety outcomes, or change the tone to be more technical", "ex. Ajouter une section comparant les résultats de sécurité, ou rendre le ton plus technique"]
 ]);

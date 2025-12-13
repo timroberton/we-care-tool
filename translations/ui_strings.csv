@@ -385,3 +385,7 @@ CSV file is empty,Le fichier CSV est vide,Arquivo CSV está vazio
 CSV must have a 'BASE' column,Le CSV doit avoir une colonne 'BASE',O CSV deve ter uma coluna 'BASE'
 Invalid number value,Valeur numérique invalide,Valor numérico inválido
 Invalid percentage value,Valeur de pourcentage invalide,Valor de porcentagem inválido
+"You have not yet created any scenarios, so this report will concern the base case only.","Vous n'avez pas encore créé de scénarios, ce rapport concernera donc uniquement le cas de base.","Você ainda não criou nenhum cenário, então este relatório se referirá apenas ao caso base."
+"e.g., Compare family planning outcomes across all scenarios","ex. Comparer les résultats de la planification familiale dans tous les scénarios","ex. Comparar os resultados de planejamento familiar em todos os cenários"
+"e.g., Summarize the baseline abortion care pathways and outcomes","ex. Résumer les parcours de soins d'avortement et les résultats du cas de base","ex. Resumir as vias de cuidados de aborto e resultados do caso base"
+"e.g., Add a section comparing safety outcomes, or change the tone to be more technical","ex. Ajouter une section comparant les résultats de sécurité, ou rendre le ton plus technique","ex. Adicionar uma seção comparando resultados de segurança, ou mudar o tom para mais técnico"
