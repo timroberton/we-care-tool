@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "types": ["vite/client"],
+    "isolatedModules": true,
+    "paths": {
+      "~/*": ["./src/*"],
+      "panther": ["./src/panther/mod.ui.ts"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "src/panther"
+  ]
+}

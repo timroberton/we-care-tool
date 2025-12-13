@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@source "./src";
+
+@import "./panther/_303_components/_fixed.css";
+
+@theme {
+  --font-*: initial;
+  --font-sans: Roboto;
+  --font-mono: Roboto Mono;
+
+  --font-weight-*: initial;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
+
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-black: #000716;
+  --color-white: #ffffff;
+
+  --color-base-100: #ffffff;
+  --color-base-200: #ebebec;
+  --color-base-300: #d6d7d9;
+  --color-base-content: #000716;
+  --color-base-content-lighter: #10151f;
+
+  --color-primary: #942a74;
+  --color-primary-content: #ffffff;
+
+  --color-neutral: #5b5a6c;
+  --color-neutral-content: #ffffff;
+
+  --color-success: #27ae60;
+  --color-success-content: #ffffff;
+
+  --color-danger: #eb5757;
+  --color-danger-content: #ffffff;
+
+  --radius: 3px;
+  --radius-full: 9999px;
+}
+
+@layer base {
+  /* Roboto */
+  @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-BoldItalic.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-display: block;
+  }
+
+  /* Roboto Black */
+  @font-face {
+    font-family: "Roboto Black";
+    src: url("/fonts/Roboto-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Roboto Black";
+    src: url("/fonts/Roboto-BlackItalic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+    font-display: block;
+  }
+
+  /* Roboto Mono */
+  @font-face {
+    font-family: "Roboto Mono";
+    src: url("/fonts/RobotoMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Roboto Mono";
+    src: url("/fonts/RobotoMono-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+
+  html,
+  body,
+  #app {
+    @apply m-0 h-full w-full bg-white p-0 font-sans text-base-content overflow-hidden;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    font-variant-numeric: tabular-nums;
+    /* font-feature-settings: "liga" 0;
+    font-variant-ligatures: no-common-ligatures; */
+  }
+}
+
+@utility ui-form-pad {
+  @apply px-2.5 py-1.5;
+}

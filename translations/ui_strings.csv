@@ -1,0 +1,387 @@
+key,fr,pt
+"""Add a scenario called 'Improved Access'""","""Ajouter un scénario appelé 'Accès amélioré'""","""Adicionar um cenário chamado 'Acesso Melhorado'"""
+"""Compare safety outcomes across all scenarios""","""Comparer les résultats de sécurité dans tous les scénarios""","""Comparar os resultados de segurança em todos os cenários"""
+"""What are the key differences between the base case and scenario 1?""","""Quelles sont les principales différences entre le cas de base et le scénario 1 ?""","""Quais são as principais diferenças entre o caso base e o cenário 1?"""
+"""Show me the data sources used for this analysis""","""Montrez-moi les sources de données utilisées pour cette analyse""","""Mostre-me as fontes de dados usadas para esta análise"""
+"""What happens if we increase facility access to 80%?""","""Que se passe-t-il si nous augmentons l'accès aux établissements à 80% ?""","""O que acontece se aumentarmos o acesso às instalações para 80%?"""
+"""Create a summary report for policymakers""","""Créer un rapport de synthèse pour les décideurs""","""Criar um relatório resumido para os formuladores de políticas"""
+"""Show me the flow diagram from baseline to outcomes""","""Montrez-moi le diagramme de flux du cas de base aux résultats""","""Mostre-me o diagrama de fluxo do caso base até os resultados"""
+"""How many safe abortions would result from improving family planning?""","""Combien d'avortements sécurisés résulteraient de l'amélioration de la planification familiale ?""","""Quantos abortos seguros resultariam da melhoria do planejamento familiar?"""
+"""Based on the uploaded documents, what data sources are available for this country?""","""Sur la base des documents téléchargés, quelles sources de données sont disponibles pour ce pays ?""","""Com base nos documentos carregados, quais fontes de dados estão disponíveis para este país?"""
+"""Review the uploaded National Strategy for Abortion Care and interpret our analysis findings with reference to the national targets""","""Examiner la Stratégie nationale pour les soins d'avortement téléchargée et interpréter nos résultats d'analyse en référence aux objectifs nationaux""","""Revisar a Estratégia Nacional de Cuidados de Aborto carregada e interpretar nossas conclusões de análise com referência às metas nacionais"""
+About,À propos,Sobre
+Add scenarios,Ajouter des scénarios,Adicionar cenários
+Add or delete scenarios,Ajouter ou supprimer des scénarios,Adicionar ou excluir cenários
+AI,IA,IA
+AI Analysis Assistant,Assistant d'analyse IA,Assistente de Análise IA
+Analyze and compare scenario results,Analyser et comparer les résultats des scénarios,Analisar e comparar resultados de cenários
+Are you sure you want to delete this project?,Êtes-vous sûr de vouloir supprimer ce projet?,Tem certeza de que deseja excluir este projeto?
+Are you sure you want to delete this scenario?,Êtes-vous sûr de vouloir supprimer ce scénario?,Tem certeza de que deseja excluir este cenário?
+Base case,Cas de base,Caso base
+Baseline data source,Source des données de référence,Fonte de dados de referência
+Cancel,Annuler,Cancelar
+Capturing charts...,Capture des graphiques...,Capturando gráficos...
+Charts,Graphiques,Gráficos
+Clear all data,Effacer toutes les données,Limpar todos os dados
+"Click ""Add scenarios"" to create one","Cliquez sur ""Ajouter des scénarios"" pour en créer un","Clique em ""Adicionar cenários"" para criar um"
+Country,Pays,País
+Country:,Pays :,País:
+Country name,Nom du pays,Nome do país
+Create,Créer,Criar
+Create new project,Créer un nouveau projet,Criar novo projeto
+Create new report,Créer un nouveau rapport,Criar novo relatório
+Create new scenarios,Créer de nouveaux scénarios,Criar novos cenários
+Create your first project,Créez votre premier projet,Crie seu primeiro projeto
+CSV upload,Téléchargement CSV,Upload de CSV
+Current report:,Rapport actuel :,Relatório atual:
+Custom,Personnalisé,Personalizado
+Data manifest not yet loaded,Manifeste de données pas encore chargé,Manifesto de dados ainda não carregado
+Default scenarios,Scénarios par défaut,Cenários padrão
+Definitions,Définitions,Definições
+Delete project,Supprimer le projet,Excluir projeto
+Documents,Documents,Documentos
+Delete scenario,Supprimer le scénario,Excluir cenário
+Drag and drop to reorder scenarios,Glisser-déposer pour réorganiser les scénarios,Arraste e solte para reordenar cenários
+Duplicate,Dupliquer,Duplicar
+Duplicate project,Dupliquer le projet,Duplicar projeto
+Duplicating project,Duplication du projet,Duplicando projeto
+Edit and reorder,Modifier et réorganiser,Editar e reordenar
+Edit and reorder scenarios,Modifier et réorganiser les scénarios,Editar e reordenar cenários
+Edit project,Modifier le projet,Editar projeto
+Edit report,Modifier le rapport,Editar relatório
+Edit scenario,Modifier le scénario,Editar cenário
+Enter country name...,Entrez le nom du pays...,Digite o nome do país...
+Error,Erreur,Erro
+Example prompts,Exemples de requêtes,Exemplos de prompts
+Failed to generate report,Échec de la génération du rapport,Falha ao gerar relatório
+Failed to update report,Échec de la mise à jour du rapport,Falha ao atualizar relatório
+File:,Fichier :,Arquivo:
+File size must be less than 500MB,La taille du fichier doit être inférieure à 500 Mo,O tamanho do arquivo deve ser inferior a 500 MB
+Generate report,Générer le rapport,Gerar relatório
+Generating...,Génération en cours...,Gerando...
+Generating report with AI...,Génération du rapport avec l'IA...,Gerando relatório com IA...
+Got it,Compris,Entendi
+Health system building blocks:,Composantes du système de santé :,Pilares do sistema de saúde:
+Health system scenarios,Scénarios du système de santé,Cenários do sistema de saúde
+Import confirmation,Confirmation d'importation,Confirmação de importação
+Importing this CSV file will replace all current parameters in this project with the data from the CSV file including the base case and all scenarios. This action cannot be undone.,"L'importation de ce fichier CSV remplacera tous les paramètres actuels de ce projet par les données du fichier CSV, y compris le cas de base et tous les scénarios. Cette action ne peut pas être annulée.","A importação deste arquivo CSV substituirá todos os parâmetros atuais neste projeto pelos dados do arquivo CSV, incluindo o caso base e todos os cenários. Esta ação não pode ser desfeita."
+Imported:,Importé :,Importado:
+Improvement due to scenario,Amélioration due au scénario,Melhoria devido ao cenário
+No change,Aucun changement,Sem alteração
+Not specified,Non spécifié,Não especificado
+Base case proportion of abortions that are safe,Proportion du cas de base des avortements sécurisés,Proporção do caso base de abortos seguros
+Base case proportion of women with abortion complications who receive effective care,Proportion du cas de base des femmes avec complications d'avortement recevant des soins efficaces,Proporção do caso base de mulheres com complicações de aborto que recebem cuidados eficazes
+Initial data source,Source de données initiale,Fonte de dados inicial
+Inputs,Entrées,Entradas
+Last modified,Dernière modification,Última modificação
+Loading...,Chargement...,Carregando...
+Loading data sources...,Chargement des sources de données...,Carregando fontes de dados...
+Modify scenario parameters,Modifier les paramètres du scénario,Modificar parâmetros do cenário
+New name must be different from current name,Le nouveau nom doit être différent du nom actuel,O novo nome deve ser diferente do nome atual
+New project,Nouveau projet,Novo projeto
+New project name,Nouveau nom du projet,Novo nome do projeto
+No project ID provided,Aucun ID de projet fourni,Nenhum ID de projeto fornecido
+No projects found. Create one to get started.,Aucun projet trouvé. Créez-en un pour commencer.,Nenhum projeto encontrado. Crie um para começar.
+No documents uploaded,Aucun document téléchargé,Nenhum documento carregado
+No scenarios,Aucun scénario,Nenhum cenário
+No scenarios yet,Pas encore de scénarios,Nenhum cenário ainda
+Number of unintended pregnancies,Nombre de grossesses non désirées,Número de gravidezes não intencionais
+Only PDF files are supported,Seuls les fichiers PDF sont pris en charge,Apenas arquivos PDF são suportados
+Original data:,Données originales :,Dados originais:
+Original file:,Fichier original :,Arquivo original:
+Pathway,Parcours,Percurso
+Please enter a prompt,Veuillez saisir une requête,Por favor insira um prompt
+Please enter what you'd like to change,Veuillez indiquer ce que vous souhaitez modifier,Por favor informe o que você gostaria de mudar
+Pregnancies,Grossesses,Gravidezes
+Pregnancy outcomes,Issues de grossesse,Resultados da gravidez
+Project name,Nom du projet,Nome do projeto
+Project not found:,Projet non trouvé :,Projeto não encontrado:
+Projects,Projets,Projetos
+Proportion of abortions that are safe,Proportion d'avortements sécurisés,Proporção de abortos seguros
+Proportion of pregnancies resulting in miscarriage,Proportion de grossesses aboutissant à une fausse couche,Proporção de gravidezes resultando em aborto espontâneo
+Proportion of women with abortion complications who receive effective care,Proportion de femmes avec complications d'avortement recevant des soins efficaces,Proporção de mulheres com complicações de aborto que recebem cuidados eficazes
+R script,Script R,Script R
+Rendering charts to images...,Rendu des graphiques en images...,Renderizando gráficos em imagens...
+Reports,Rapports,Relatórios
+Reset all,Réinitialiser tout,Redefinir tudo
+Reset base case to original,Réinitialiser le cas de base aux valeurs originales,Redefinir caso base ao original
+Results,Résultats,Resultados
+Return to Home,Retour à l'accueil,Voltar para Início
+Save,Enregistrer,Salvar
+Saving report...,Enregistrement du rapport...,Salvando relatório...
+Scenario,Scénario,Cenário
+scenario,scénario,cenário
+scenarios,scénarios,cenários
+Scenario name,Nom du scénario,Nome do cenário
+Scenarios,Scénarios,Cenários
+Select adjustments,Sélectionner les ajustements,Selecionar ajustes
+Select one or more templates to create scenarios,Sélectionnez un ou plusieurs modèles pour créer des scénarios,Selecione um ou mais modelos para criar cenários
+Select scenarios to include (the base case is always included),Sélectionnez les scénarios à inclure (le cas de base est toujours inclus),Selecione os cenários a incluir (o caso base é sempre incluído)
+Selected data source not found,Source de données sélectionnée non trouvée,Fonte de dados selecionada não encontrada
+Show R script tab in Results pane,Afficher l'onglet Script R dans le panneau Résultats,Mostrar aba Script R no painel Resultados
+Show system context tab in AI pane,Afficher l'onglet contexte système dans le panneau IA,Mostrar aba de contexto do sistema no painel IA
+Source:,Source :,Fonte:
+System context,Contexte système,Contexto do sistema
+Table,Tableau,Tabela
+Type your message... (Shift+Enter for new line),Tapez votre message... (Shift+Entrée pour nouvelle ligne),Digite sua mensagem... (Shift+Enter para nova linha)
+The proportion of all pregnancies that naturally end in miscarriage before seeking abortion care.,La proportion de toutes les grossesses qui se terminent naturellement par une fausse couche avant de chercher des soins d'avortement.,A proporção de todas as gravidezes que terminam naturalmente em aborto espontâneo antes de buscar cuidados de aborto.
+The total number of unintended pregnancies in the population during the time period being modeled.,Le nombre total de grossesses non désirées dans la population pendant la période modélisée.,O número total de gravidezes não intencionais na população durante o período sendo modelado.
+Thinking...,Réflexion...,Pensando...
+This will permanently delete all projects. This action cannot be undone.,Ceci supprimera définitivement tous les projets. Cette action ne peut pas être annulée.,Isso excluirá permanentemente todos os projetos. Esta ação não pode ser desfeita.
+This will reset all base case parameters to their original imported values (details below). This action cannot be undone.,"Ceci réinitialisera tous les paramètres du cas de base à leurs valeurs originales importées (détails ci-dessous). Cette action ne peut pas être annulée.","Isso redefinirá todos os parâmetros do caso base para seus valores originais importados (detalhes abaixo). Esta ação não pode ser desfeita."
+Update report,Mettre à jour le rapport,Atualizar relatório
+Upload PDF,Télécharger PDF,Carregar PDF
+Upload PDFs to include in AI analysis,Téléchargez des PDF pour les inclure dans l'analyse IA,Carregue PDFs para incluir na análise de IA
+Upload PDF documents in the Documents tab to include them in AI analysis. The assistant can read and reference these documents when answering questions or generating reports. Documents are included automatically in the first message of each conversation.,"Téléchargez des documents PDF dans l'onglet Documents pour les inclure dans l'analyse IA. L'assistant peut lire et référencer ces documents pour répondre aux questions ou générer des rapports. Les documents sont inclus automatiquement dans le premier message de chaque conversation.","Carregue documentos PDF na aba Documentos para incluí-los na análise de IA. O assistente pode ler e referenciar esses documentos ao responder perguntas ou gerar relatórios. Os documentos são incluídos automaticamente na primeira mensagem de cada conversa."
+Use this assistant to analyze your scenario results and modify parameters and manage scenarios.,Utilisez cet assistant pour analyser les résultats de vos scénarios et modifier les paramètres et gérer les scénarios.,Use este assistente para analisar os resultados de seus cenários e modificar parâmetros e gerenciar cenários.
+User context,Contexte utilisateur,Contexto do usuário
+Updating...,Mise à jour...,Atualizando...
+Updating report with AI...,Mise à jour du rapport avec l'IA...,Atualizando relatório com IA...
+View specific results and metrics,Voir les résultats et métriques spécifiques,Ver resultados e métricas específicos
+What would you like the report to focus on?,Sur quoi souhaitez-vous que le rapport se concentre?,Em que você gostaria que o relatório se concentrasse?
+What would you like to change?,Que souhaitez-vous modifier?,O que você gostaria de mudar?
+What you can do,Ce que vous pouvez faire,O que você pode fazer
+"You can create and edit reports either with this assistant or using the ""Create report"" button on the Reports pane itself.","Vous pouvez créer et modifier des rapports soit avec cet assistant, soit en utilisant le bouton ""Créer un rapport"" dans le panneau Rapports.","Você pode criar e editar relatórios com este assistente ou usando o botão ""Criar relatório"" no painel Relatórios."
+You must enter a country name,Vous devez saisir un nom de pays,Você deve inserir um nome de país
+You must enter a project name,Vous devez saisir un nom de projet,Você deve inserir um nome de projeto
+You must select a data source,Vous devez sélectionner une source de données,Você deve selecionar uma fonte de dados
+Abortion seeking,Recours à l'avortement,Busca por aborto
+Facility access,Accès aux établissements,Acesso às instalações
+Out-of-facility access,Accès hors établissement,Acesso fora das instalações
+Facility readiness,Préparation des établissements,Prontidão das instalações
+Out-of-facility readiness,Préparation hors établissement,Prontidão fora das instalações
+Family planning,Planification familiale,Planejamento familiar
+Health worker competent in abortion care,Personnel de santé compétent en soins d'avortement,Profissional de saúde competente em cuidados de aborto
+Misoprostol,Misoprostol,Misoprostol
+Mifepristone,Mifépristone,Mifepristona
+"Vacuum aspiration kit (MVA, EVA kit)","Kit d'aspiration manuelle (AMV, kit EVA)","Kit de aspiração a vácuo (AMV, kit EVA)"
+"Dilation and evacuation kit (D&E kit)","Kit de dilatation et évacuation (kit D&E)","Kit de dilatação e evacuação (kit D&E)"
+"Dilation and curettage kit (D&C kit)","Kit de dilatation et curetage (kit D&C)","Kit de dilatação e curetagem (kit D&C)"
+Disposable latex gloves (sterile),Gants en latex jetables (stériles),Luvas de látex descartáveis (estéreis)
+Antiseptic for cleaning cervix,Antiseptique pour nettoyage du col,Antisséptico para limpeza do colo
+Antibiotics,Antibiotiques,Antibióticos
+CEmONC,CEmONC,CEmONC
+Other items for non-recommended out-of-facility services,Autres articles pour services hors établissement non recommandés,Outros itens para serviços não recomendados fora das instalações
+Custom scenario,Scénario personnalisé,Cenário personalizado
+Set multiple parameters to your own specified values,Définir plusieurs paramètres selon vos propres valeurs,Definir vários parâmetros com seus próprios valores especificados
+Improve facility access,Améliorer l'accès aux établissements,Melhorar o acesso às instalações
+"Increase all facility access parameters to at least 90% (except legal restrictions)","Augmenter tous les paramètres d'accès aux établissements à au moins 90% (sauf restrictions légales)","Aumentar todos os parâmetros de acesso às instalações para pelo menos 90% (exceto restrições legais)"
+Improve facility readiness,Améliorer la préparation des établissements,Melhorar a prontidão das instalações
+"Increase all facility readiness parameters to at least 90% (except D&C)","Augmenter tous les paramètres de préparation des établissements à au moins 90% (sauf D&C)","Aumentar todos os parâmetros de prontidão das instalações para pelo menos 90% (exceto D&C)"
+Increase preference for facility-based care,Augmenter la préférence pour les soins en établissement,Aumentar a preferência por cuidados em instalações
+"Increase the proportion of women preferring facility-based care (vs out-of-facility care) to at least 90%","Augmenter la proportion de femmes préférant les soins en établissement (vs hors établissement) à au moins 90%","Aumentar a proporção de mulheres que preferem cuidados em instalações (vs fora das instalações) para pelo menos 90%"
+Workforce,Personnel de santé,Força de trabalho
+Increase facility health worker abortion competency to at least 90%,Augmenter la compétence du personnel de santé en avortement à au moins 90%,Aumentar a competência dos profissionais de saúde em aborto para pelo menos 90%
+Commodities,Produits de base,Insumos
+"Increase all facility commodity readiness parameters to at least 90% (except health workers, D&C kits, and CEmONC)","Augmenter tous les paramètres de disponibilité des produits à au moins 90% (sauf personnel de santé, kits D&C et CEmONC)","Aumentar todos os parâmetros de prontidão de insumos para pelo menos 90% (exceto profissionais de saúde, kits D&C e CEmONC)"
+Governance,Gouvernance,Governança
+Remove legal restrictions for 100% of abortions,Supprimer les restrictions légales pour 100% des avortements,Remover restrições legais para 100% dos abortos
+Financing,Financement,Financiamento
+Reduce financial barriers such that at least 90% of women can afford facility and out-of-facility care,Réduire les barrières financières pour qu'au moins 90% des femmes puissent accéder aux soins en établissement et hors établissement,Reduzir barreiras financeiras para que pelo menos 90% das mulheres possam pagar cuidados em instalações e fora das instalações
+"Facility: ","Établissement : ","Instalação: "
+"Out-of-facility: ","Hors établissement : ","Fora da instalação: "
+Proportion of unintended pregnancies for which abortion is sought,Proportion de grossesses non désirées pour lesquelles un avortement est recherché,Proporção de gravidezes não intencionais para as quais o aborto é buscado
+Proportion of women seeking an induced abortion whose preference is to initiate abortion in a facility,Proportion de femmes cherchant un avortement provoqué préférant initier l'avortement en établissement,Proporção de mulheres que buscam aborto induzido cuja preferência é iniciar o aborto em uma instalação
+Proportion of unintended pregnancies for which abortion is not legally restricted,Proportion de grossesses non désirées pour lesquelles l'avortement n'est pas légalement restreint,Proporção de gravidezes não intencionais para as quais o aborto não é legalmente restrito
+Proportion of facilities offering abortion services,Proportion d'établissements offrant des services d'avortement,Proporção de instalações que oferecem serviços de aborto
+Proportion of facilities offering post-abortion care services,Proportion d'établissements offrant des soins post-avortement,Proporção de instalações que oferecem serviços de cuidados pós-aborto
+Proportion of women within accessible distance of a facility,Proportion de femmes à distance accessible d'un établissement,Proporção de mulheres a uma distância acessível de uma instalação
+Proportion of women for whom the cost of facility-based care is not a barrier,Proportion de femmes pour qui le coût des soins en établissement n'est pas un obstacle,Proporção de mulheres para quem o custo dos cuidados em instalações não é uma barreira
+Proportion of women within accessible distance of an out-of-facility provider,Proportion de femmes à distance accessible d'un prestataire hors établissement,Proporção de mulheres a uma distância acessível de um prestador fora das instalações
+Proportion of women for whom the cost of out-of-facility care is not a barrier,Proportion de femmes pour qui le coût des soins hors établissement n'est pas un obstacle,Proporção de mulheres para quem o custo dos cuidados fora das instalações não é uma barreira
+Demand for family planning,Demande de planification familiale,Demanda por planejamento familiar
+Met need for family planning,Besoin satisfait en planification familiale,Necessidade atendida de planejamento familiar
+Combined effectiveness of contraceptive methods,Efficacité combinée des méthodes contraceptives,Eficácia combinada dos métodos contraceptivos
+"This indicator refers to the proportion of women experiencing an unintended pregnancy who choose to seek an abortion. An abortion (or termination) is the medical process of ending a pregnancy. Abortion is a common health intervention. It is very safe when carried out using a method recommended by WHO, appropriate to the pregnancy duration and by someone with the necessary skills.","Cet indicateur fait référence à la proportion de femmes ayant une grossesse non désirée qui choisissent de recourir à un avortement. L'avortement (ou interruption de grossesse) est le processus médical mettant fin à une grossesse. L'avortement est une intervention de santé courante. Il est très sûr lorsqu'il est réalisé selon une méthode recommandée par l'OMS, adaptée à la durée de la grossesse et par une personne possédant les compétences nécessaires.","Este indicador refere-se à proporção de mulheres com gravidez não intencional que optam por buscar um aborto. O aborto (ou interrupção da gravidez) é o processo médico de encerrar uma gravidez. O aborto é uma intervenção de saúde comum. É muito seguro quando realizado usando um método recomendado pela OMS, apropriado para a duração da gravidez e por alguém com as habilidades necessárias."
+"This indicator refers to the proportion of women who choose to seek an abortion, who have a preference to engage with facility-based abortion care services based on knowledge, awareness, trust, and interest in facility based care.","Cet indicateur fait référence à la proportion de femmes qui choisissent de recourir à un avortement et qui préfèrent s'engager avec des services de soins d'avortement en établissement, basé sur la connaissance, la sensibilisation, la confiance et l'intérêt pour les soins en établissement.","Este indicador refere-se à proporção de mulheres que optam por buscar um aborto e que têm preferência por utilizar serviços de cuidados de aborto em instalações, com base em conhecimento, conscientização, confiança e interesse em cuidados em instalações."
+"This indicator refers to the proportion of women who choose to seek an abortion, who will be able to access facility based care in accordance with the legal context of abortion in their country. Restrictive laws and requirements that are not medically justified include criminalization of abortion, mandatory waiting periods, provision of biased information or counselling, third-party authorization and restrictions regarding the type of health care providers or facilities that can provide abortion services.","Cet indicateur fait référence à la proportion de femmes qui choisissent de recourir à un avortement et qui pourront accéder aux soins en établissement conformément au contexte juridique de l'avortement dans leur pays. Les lois et exigences restrictives non justifiées médicalement comprennent la criminalisation de l'avortement, les délais d'attente obligatoires, la fourniture d'informations ou de conseils biaisés, l'autorisation de tiers et les restrictions concernant le type de prestataires de soins de santé ou d'établissements pouvant fournir des services d'avortement.","Este indicador refere-se à proporção de mulheres que optam por buscar um aborto e que poderão acessar cuidados em instalações de acordo com o contexto legal do aborto em seu país. Leis e requisitos restritivos não justificados medicamente incluem criminalização do aborto, períodos de espera obrigatórios, fornecimento de informações ou aconselhamento tendenciosos, autorização de terceiros e restrições quanto ao tipo de prestadores de serviços de saúde ou instalações que podem fornecer serviços de aborto."
+"This indicator refers to the proportion of healthcare facilities who offer abortion care services of any kind (including comprehensive abortion care, and post abortion care).","Cet indicateur fait référence à la proportion d'établissements de santé qui offrent des services de soins d'avortement de tout type (y compris les soins complets d'avortement et les soins post-avortement).","Este indicador refere-se à proporção de instalações de saúde que oferecem serviços de cuidados de aborto de qualquer tipo (incluindo cuidados abrangentes de aborto e cuidados pós-aborto)."
+This indicator refers to the proportion of healthcare facilities who offer post-abortion care services.,Cet indicateur fait référence à la proportion d'établissements de santé qui offrent des services de soins post-avortement.,Este indicador refere-se à proporção de instalações de saúde que oferecem serviços de cuidados pós-aborto.
+"This indicator refers to the proportion of women who choose to seek an abortion, who will be able to access a healthcare facility based on their geographic distance from a healthcare facility.","Cet indicateur fait référence à la proportion de femmes qui choisissent de recourir à un avortement et qui pourront accéder à un établissement de santé en fonction de leur distance géographique par rapport à cet établissement.","Este indicador refere-se à proporção de mulheres que optam por buscar um aborto e que poderão acessar uma instalação de saúde com base em sua distância geográfica de uma instalação de saúde."
+"This indicator refers to the proportion of women who choose to seek facility-based abortion care, for whom associated costs will not be a barrier (including loss of income, payment for abortion care services, and other financial costs).","Cet indicateur fait référence à la proportion de femmes qui choisissent de recourir aux soins d'avortement en établissement, pour lesquelles les coûts associés ne seront pas un obstacle (y compris la perte de revenus, le paiement des services de soins d'avortement et autres coûts financiers).","Este indicador refere-se à proporção de mulheres que optam por buscar cuidados de aborto em instalações, para quem os custos associados não serão uma barreira (incluindo perda de renda, pagamento por serviços de cuidados de aborto e outros custos financeiros)."
+"This indicator refers to the proportion of women who choose to seek an abortion, who will be able to access an out-of-facility provider (including pharmacy, telehealth, or traditional provider) based on their geographic distance from an out-of-facility provider.","Cet indicateur fait référence à la proportion de femmes qui choisissent de recourir à un avortement et qui pourront accéder à un prestataire hors établissement (y compris pharmacie, télésanté ou prestataire traditionnel) en fonction de leur distance géographique par rapport à ce prestataire.","Este indicador refere-se à proporção de mulheres que optam por buscar um aborto e que poderão acessar um prestador fora das instalações (incluindo farmácia, telessaúde ou prestador tradicional) com base em sua distância geográfica de um prestador fora das instalações."
+"This indicator refers to the proportion of women who choose to seek out-of-facility-based abortion care, for whom associated costs will not be a barrier (including loss of income, payment for abortion care services, and other financial costs).","Cet indicateur fait référence à la proportion de femmes qui choisissent de recourir aux soins d'avortement hors établissement, pour lesquelles les coûts associés ne seront pas un obstacle (y compris la perte de revenus, le paiement des services de soins d'avortement et autres coûts financiers).","Este indicador refere-se à proporção de mulheres que optam por buscar cuidados de aborto fora das instalações, para quem os custos associados não serão uma barreira (incluindo perda de renda, pagamento por serviços de cuidados de aborto e outros custos financeiros)."
+"This indicator refers to the proportion of women who don't want pregnancy, who want access to family planning services and contraception.","Cet indicateur fait référence à la proportion de femmes qui ne veulent pas de grossesse et qui souhaitent accéder aux services de planification familiale et à la contraception.","Este indicador refere-se à proporção de mulheres que não desejam gravidez e que querem acesso a serviços de planejamento familiar e contracepção."
+This indicator refers to the proportion of women who want access to family planning services and contraception and have this demand met.,Cet indicateur fait référence à la proportion de femmes qui souhaitent accéder aux services de planification familiale et à la contraception et dont cette demande est satisfaite.,Este indicador refere-se à proporção de mulheres que desejam acesso a serviços de planejamento familiar e contracepção e têm essa demanda atendida.
+This indicator refers to combined effectiveness of family planning services and contraceptive methods.,Cet indicateur fait référence à l'efficacité combinée des services de planification familiale et des méthodes contraceptives.,Este indicador refere-se à eficácia combinada dos serviços de planejamento familiar e métodos contraceptivos.
+"This indicator refers to the proportion of facilities offering abortion services, whose health workforce are appropriately knowledgeable and trained to provide abortion care services in accordance with the WHO Family planning and comprehensive abortion care toolkit for the primary health care workforce guidelines.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement dont le personnel de santé est correctement formé et compétent pour fournir des services de soins d'avortement conformément aux directives de l'OMS sur la planification familiale et les soins complets d'avortement pour le personnel de santé primaire.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto cujos profissionais de saúde são adequadamente capacitados e treinados para fornecer serviços de cuidados de aborto de acordo com as diretrizes do kit de ferramentas da OMS sobre planejamento familiar e cuidados abrangentes de aborto para profissionais de saúde primária."
+"This indicator refers to the proportion of facilities offering abortion services, who have misoprostol available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent de misoprostol comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm misoprostol disponível como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have mifepristone available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent de mifépristone comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm mifepristona disponível como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have a vacuum aspiration kit (MVA, EVA) available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent d'un kit d'aspiration manuelle (AMV, EVA) comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm um kit de aspiração a vácuo (AMV, EVA) disponível como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have a dilation and evacuation kit (D&E) available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent d'un kit de dilatation et évacuation (D&E) comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm um kit de dilatação e evacuação (D&E) disponível como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have a dilation and curettage kit (D&C) available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent d'un kit de dilatation et curetage (D&C) comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm um kit de dilatação e curetagem (D&C) disponível como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have disposable latex gloves available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent de gants en latex jetables comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm luvas de látex descartáveis disponíveis como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have antiseptic available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent d'antiseptique comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm antisséptico disponível como insumo para cuidados de aborto em instalações."
+"This indicator refers to the proportion of facilities offering abortion services, who have antibiotics available as a commodity for facility-based abortion care.","Cet indicateur fait référence à la proportion d'établissements offrant des services d'avortement qui disposent d'antibiotiques comme produit pour les soins d'avortement en établissement.","Este indicador refere-se à proporção de instalações que oferecem serviços de aborto que têm antibióticos disponíveis como insumo para cuidados de aborto em instalações."
+This indicator refers to the proportion of facilities offering CEmONC for facility-based post-abortion care.,Cet indicateur fait référence à la proportion d'établissements offrant des CEmONC pour les soins post-avortement en établissement.,Este indicador refere-se à proporção de instalações que oferecem CEmONC para cuidados pós-aborto em instalações.
+"This indicator refers to the proportion of out-of-facility service providers who are appropriately knowledgeable and trained to correctly dispense a WHO-recommended medical abortion regimen (mifepristone + misoprostol or correct misoprostol-only dosing), and provide the minimum essential counselling (how to take the drugs, expected bleeding/pain, when to seek care for warning signs).","Cet indicateur fait référence à la proportion de prestataires de services hors établissement qui sont correctement formés et compétents pour dispenser correctement un régime d'avortement médicamenteux recommandé par l'OMS (mifépristone + misoprostol ou dosage correct de misoprostol seul), et fournir les conseils essentiels minimaux (comment prendre les médicaments, saignements/douleurs attendus, quand consulter pour des signes d'alerte).","Este indicador refere-se à proporção de prestadores de serviços fora das instalações que são adequadamente capacitados e treinados para dispensar corretamente um regime de aborto medicamentoso recomendado pela OMS (mifepristona + misoprostol ou dosagem correta apenas de misoprostol), e fornecer o aconselhamento essencial mínimo (como tomar os medicamentos, sangramento/dor esperados, quando buscar atendimento para sinais de alerta)."
+This indicator refers to the proportion of out-of-facility service points who have misoprostol available as a commodity to provide abortion care.,Cet indicateur fait référence à la proportion de points de service hors établissement qui disposent de misoprostol comme produit pour fournir des soins d'avortement.,Este indicador refere-se à proporção de pontos de serviço fora das instalações que têm misoprostol disponível como insumo para fornecer cuidados de aborto.
+This indicator refers to the proportion of out-of-facility service points who have mifepristone available as a commodity to provide abortion care.,Cet indicateur fait référence à la proportion de points de service hors établissement qui disposent de mifépristone comme produit pour fournir des soins d'avortement.,Este indicador refere-se à proporção de pontos de serviço fora das instalações que têm mifepristona disponível como insumo para fornecer cuidados de aborto.
+This indicator refers to the proportion of out-of-facility service points who have other non-recommended products available to provide abortion care.,Cet indicateur fait référence à la proportion de points de service hors établissement qui disposent d'autres produits non recommandés pour fournir des soins d'avortement.,Este indicador refere-se à proporção de pontos de serviço fora das instalações que têm outros produtos não recomendados disponíveis para fornecer cuidados de aborto.
+Misoprostol and mifepristone,Misoprostol et mifépristone,Misoprostol e mifepristona
+Misoprostol only,Misoprostol seul,Somente misoprostol
+Vacuum aspiration,Aspiration manuelle,Aspiração a vácuo
+Dilation and evacuation,Dilatation et évacuation,Dilatação e evacuação
+Dilation and curettage,Dilatation et curetage,Dilatação e curetagem
+"Misoprostol and mifepristone, without a competent health worker","Misoprostol et mifépristone, sans personnel de santé compétent","Misoprostol e mifepristona, sem profissional de saúde competente"
+"Misoprostol only, without a competent health worker","Misoprostol seul, sans personnel de santé compétent","Somente misoprostol, sem profissional de saúde competente"
+"Vacuum aspiration, without a competent health worker","Aspiration manuelle, sans personnel de santé compétent","Aspiração a vácuo, sem profissional de saúde competente"
+"Dilation and evacuation, without a competent health worker","Dilatation et évacuation, sans personnel de santé compétent","Dilatação e evacuação, sem profissional de saúde competente"
+"Dilation and curettage, without a competent health worker","Dilatation et curetage, sans personnel de santé compétent","Dilatação e curetagem, sem profissional de saúde competente"
+All other out-of-facility services,Tous les autres services hors établissement,Todos os outros serviços fora das instalações
+New scenario,Nouveau scénario,Novo cenário
+Welcome,Bienvenue,Bem-vindo
+Using the Tool,Utilisation de l'outil,Usando a Ferramenta
+Model Methodology,Méthodologie du modèle,Metodologia do Modelo
+FAQ,FAQ,FAQ
+Go to projects,Aller aux projets,Ir para projetos
+No reports yet,Pas encore de rapports,Ainda sem relatórios
+"Select a report...","Sélectionner un rapport...","Selecionar um relatório..."
+Word,Word,Word
+Create report,Créer un rapport,Criar relatório
+No report selected,Aucun rapport sélectionné,Nenhum relatório selecionado
+"Create a new report or select one from the dropdown","Créez un nouveau rapport ou sélectionnez-en un dans la liste","Crie um novo relatório ou selecione um na lista"
+AI-Generated Content,Contenu généré par IA,Conteúdo Gerado por IA
+"This report was generated using artificial intelligence. Please review all content for accuracy and verify any critical information.","Ce rapport a été généré par intelligence artificielle. Veuillez vérifier l'exactitude de tout le contenu et confirmer toute information critique.","Este relatório foi gerado usando inteligência artificial. Por favor, revise todo o conteúdo para precisão e verifique qualquer informação crítica."
+"Created:","Créé :","Criado:"
+"Updated:","Mis à jour :","Atualizado:"
+System prompt,Prompt système,Prompt do sistema
+Results text,Texte des résultats,Texto dos resultados
+Copy,Copier,Copiar
+Edit,Modifier,Editar
+"Add custom context to include in all AI interactions","Ajouter un contexte personnalisé à inclure dans toutes les interactions IA","Adicionar contexto personalizado para incluir em todas as interações de IA"
+No user context provided,Aucun contexte utilisateur fourni,Nenhum contexto do usuário fornecido
+"Enter additional context for the AI assistant...","Entrez un contexte supplémentaire pour l'assistant IA...","Digite contexto adicional para o assistente de IA..."
+Unknown,Inconnu,Desconhecido
+Survey,Enquête,Pesquisa
+Administrative,Administratif,Administrativo
+Estimate,Estimation,Estimativa
+Assumption,Hypothèse,Suposição
+Literature,Littérature,Literatura
+Expert opinion,Opinion d'expert,Opinião de especialista
+Unclassified,Non classé,Não classificado
+Strong evidence,Preuves solides,Evidência forte
+Moderate evidence,Preuves modérées,Evidência moderada
+Weak evidence,Preuves faibles,Evidência fraca
+Non-recommended,Non recommandé,Não recomendado
+Data source description,Description de la source de données,Descrição da fonte de dados
+Data Sources,Sources de données,Fontes de Dados
+Parameter category,Catégorie de paramètre,Categoria do parâmetro
+Data source,Source de données,Fonte de dados
+Source type,Type de source,Tipo de fonte
+Evidence strength,Solidité des preuves,Força da evidência
+"Data source:","Source de données :","Fonte de dados:"
+"Source type:","Type de source :","Tipo de fonte:"
+"Evidence strength:","Force des preuves :","Força da evidência:"
+"Definition:","Définition :","Definição:"
+Are you sure you want to delete this report?,Êtes-vous sûr de vouloir supprimer ce rapport?,Tem certeza de que deseja excluir este relatório?
+Standard,Standard,Padrão
+Summary,Résumé,Resumo
+Full detail,Détail complet,Detalhe completo
+Unintended pregnancies,Grossesses non désirées,Gravidezes não intencionais
+Seek an induced abortion,Recours à l'avortement provoqué,Busca por aborto induzido
+Do not seek an abortion,Ne recherche pas d'avortement,Não busca aborto
+Abortion initiated in a facility,Avortement initié en établissement,Aborto iniciado em instalação
+Abortion initiated out of a facility,Avortement initié hors établissement,Aborto iniciado fora de instalação
+No access,Pas d'accès,Sem acesso
+Safe,Sécurisé,Seguro
+Less safe,Moins sécurisé,Menos seguro
+Least safe,Le moins sécurisé,Menos seguro de todos
+No abortion,Pas d'avortement,Sem aborto
+Safe abortion,Avortement sécurisé,Aborto seguro
+"Safe, less safe, and least safe abortions","Avortements sécurisés, moins sécurisés et les moins sécurisés","Abortos seguros, menos seguros e menos seguros de todos"
+Less safe abortion,Avortement moins sécurisé,Aborto menos seguro
+Least safe abortion,Avortement le moins sécurisé,Aborto menos seguro de todos
+Abortion complication,Complication d'avortement,Complicação de aborto
+Return to a state of non-pregnancy,Retour à un état de non-grossesse,Retorno ao estado de não gravidez
+Effective post-abortion care,Soins post-avortement efficaces,Cuidados pós-aborto eficazes
+No care or ineffective care,Pas de soins ou soins inefficaces,Sem cuidados ou cuidados ineficazes
+All pregnancies,Toutes les grossesses,Todas as gravidezes
+Intended pregnancies,Grossesses désirées,Gravidezes intencionais
+Miscarriage,Fausse couche,Aborto espontâneo
+Live birth,Naissance vivante,Nascimento vivo
+Moderate complication,Complication modérée,Complicação moderada
+Severe complication,Complication sévère,Complicação grave
+No access or abortion,Pas d'accès ou d'avortement,Sem acesso ou aborto
+Prefer facility-based care,Préfère les soins en établissement,Prefere cuidados em instalação
+Prefer out-of-facility care,Préfère les soins hors établissement,Prefere cuidados fora de instalação
+Legal access,Accès légal,Acesso legal
+No legal access,Pas d'accès légal,Sem acesso legal
+Geographic access,Accès géographique,Acesso geográfico
+No geographic access,Pas d'accès géographique,Sem acesso geográfico
+Financial access,Accès financier,Acesso financeiro
+No financial access,Pas d'accès financier,Sem acesso financeiro
+Service availability,Disponibilité des services,Disponibilidade de serviços
+No service availability,Pas de disponibilité des services,Sem disponibilidade de serviços
+Clear,Effacer,Limpar
+AI Analysis Assistant,Assistant d'analyse IA,Assistente de Análise IA
+Ask me to analyze your scenario results or create reports or add new scenarios.,Demandez-moi d'analyser vos résultats de scénarios ou de créer des rapports ou d'ajouter de nouveaux scénarios.,Peça-me para analisar os resultados dos seus cenários ou criar relatórios ou adicionar novos cenários.
+Facility services,Services en établissement,Serviços em instalações
+Out-of-facility services,Services hors établissement,Serviços fora de instalações
+Complication rates,Taux de complications,Taxas de complicações
+Service,Service,Serviço
+Combo,Combo,Combinação
+Moderate,Modérée,Moderada
+Severe,Sévère,Grave
+Incomplete abortion,Avortement incomplet,Aborto incompleto
+Continuing pregnancy,Grossesse évolutive,Gravidez em curso
+Infection,Infection,Infecção
+Trauma,Traumatisme,Trauma
+Hemorrhage,Hémorragie,Hemorragia
+Other,Autre,Outro
+All other out-of-facility services,Tous autres services hors établissement,Todos os outros serviços fora de instalações
+SAFE,SÉCURISÉ,SEGURO
+LESS SAFE,MOINS SÉCURISÉ,MENOS SEGURO
+LEAST SAFE,LE MOINS SÉCURISÉ,MENOS SEGURO DE TODOS
+MODERATE,MODÉRÉE,MODERADA
+SEVERE,SÉVÈRE,GRAVE
+STRONG EVIDENCE,PREUVES SOLIDES,EVIDÊNCIA FORTE
+MODERATE EVIDENCE,PREUVES MODÉRÉES,EVIDÊNCIA MODERADA
+WEAK EVIDENCE,PREUVES FAIBLES,EVIDÊNCIA FRACA
+About,À propos,Sobre
+Indicator,Indicateur,Indicador
+Pregnancies,Grossesses,Gravidezes
+All pregnancies,Toutes les grossesses,Todas as gravidezes
+Intended pregnancies,Grossesses désirées,Gravidezes intencionais
+Demand,Demande,Demanda
+Access,Accès,Acesso
+Service provision at facilities,Prestation de services en établissement,Prestação de serviços em instalações
+Service provision at out-of-facility providers,Prestation de services hors établissement,Prestação de serviços fora de instalações
+Abortion outcomes,Issues des avortements,Desfechos dos abortos
+Abortions,Avortements,Abortos
+Live births,Naissances vivantes,Nascimentos vivos
+Miscarriages,Fausses couches,Abortos espontâneos
+Total abortions,Total des avortements,Total de abortos
+Abortion complications,Complications d'avortement,Complicações de aborto
+Total abortion complications,Total des complications d'avortement,Total de complicações de aborto
+Complication categories,Catégories de complications,Categorias de complicações
+Total moderate complications,Total des complications modérées,Total de complicações moderadas
+Total severe complications,Total des complications sévères,Total de complicações graves
+No complications,Pas de complications,Sem complicações
+Post-abortion care for abortion complications,Soins post-avortement pour complications,Cuidados pós-aborto para complicações
+Pregnant women seeking an induced abortion,Femmes enceintes cherchant un avortement provoqué,Mulheres grávidas buscando aborto induzido
+Rerouted from facility to out-of-facility,Réorientée de l'établissement vers hors établissement,Redirecionada de instalação para fora de instalação
+No abortion after initiating in a facility,Pas d'avortement après avoir initié en établissement,Sem aborto após iniciar em instalação
+No abortion after initiating out of a facility,Pas d'avortement après avoir initié hors établissement,Sem aborto após iniciar fora de instalação
+Unknown error,Erreur inconnue,Erro desconhecido
+Non-recommended,Non recommandé,Não recomendado
+Change from the base case,Changement par rapport au scénario de référence,Mudança em relação ao caso base
+Proportion of pregnancies resulting in contraindication,Proportion de grossesses avec contre-indication,Proporção de gravidezes com contraindicação
+The proportion of all pregnancies that have medical contraindications requiring therapeutic abortion.,La proportion de toutes les grossesses présentant des contre-indications médicales nécessitant un avortement thérapeutique.,A proporção de todas as gravidezes que têm contraindicações médicas que requerem aborto terapêutico.
+Abortion service provision at facilities,Prestation de services d'avortement en établissement,Prestação de serviços de aborto em instalações
+Abortion service provision at out-of-facility providers,Prestation de services d'avortement hors établissement,Prestação de serviços de aborto fora de instalações
+Receiving effective care,Recevant des soins efficaces,Recebendo cuidados eficazes
+Not receiving effective care,Ne recevant pas de soins efficaces,Não recebendo cuidados eficazes
+Total moderate complications needing care,Total des complications modérées nécessitant des soins,Total de complicações moderadas necessitando de cuidados
+Total severe complications needing care,Total des complications sévères nécessitant des soins,Total de complicações graves necessitando de cuidados
+Total complications needing care,Total des complications nécessitant des soins,Total de complicações necessitando de cuidados
+Seek an induced abortion,Chercher un avortement provoqué,Buscar aborto induzido
+Complications,Complications,Complicações
+Total complications,Total des complications,Total de complicações
+Moderate complications (total),Complications modérées (total),Complicações moderadas (total)
+Severe complications (total),Complications sévères (total),Complicações graves (total)
+Reset to original value,Réinitialiser à la valeur d'origine,Redefinir para valor original
+CSV file is empty,Le fichier CSV est vide,Arquivo CSV está vazio
+CSV must have a 'BASE' column,Le CSV doit avoir une colonne 'BASE',O CSV deve ter uma coluna 'BASE'
+Invalid number value,Valeur numérique invalide,Valor numérico inválido
+Invalid percentage value,Valeur de pourcentage invalide,Valor de porcentagem inválido

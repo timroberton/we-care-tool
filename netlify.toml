@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  autoLaunch = false
+
+[functions]
+  directory = "netlify/functions"
+
+[[edge_functions]]
+  path = "/api/ai"
+  function = "ai"
+
+[[redirects]]
+  from = "https://who-we-care.netlify.app/*"
+  to = "https://wecaretool.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

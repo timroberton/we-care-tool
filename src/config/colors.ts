@@ -1,0 +1,98 @@
+export const APP_COLORS = {
+  base: {
+    black: "#000716",
+    white: "#ffffff",
+    transparent: "transparent",
+    base100: "#ffffff",
+    base200: "#ebebec",
+    base300: "#d6d7d9",
+    baseContent: "#000716",
+    baseContentLighter: "#10151f",
+  },
+
+  brand: {
+    primary: "#942a74",
+    primaryContent: "#ffffff",
+  },
+
+  semantic: {
+    neutral: "#5b5a6c",
+    neutralContent: "#ffffff",
+    success: "#27ae60",
+    successContent: "#ffffff",
+    warning: "#FFA500",
+    warningContent: "#ffffff",
+    danger: "#eb5757",
+    dangerContent: "#ffffff",
+  },
+
+  chartIndicators: {
+    green: "#27AE60",
+    yellow: "#F2C94C",
+    red: "#EB5757",
+  },
+
+  flowDiagrams: {
+    bright: {
+      upperBoxes: "#ffffff",
+      noSeekNoAccess: "#ebebec",
+      safe: "#27AE60",
+      lessSafe: "#F2C94C",
+      leastSafe: "#EB5757",
+      default: "#ebebec",
+      changedFromBaseline: "#D0E8FF",
+      textPrimary: "#000000",
+      textSecondary: "#000000",
+    },
+    current: {
+      upperBoxes: "#ffffff",
+      noSeekNoAccess: "#ebebec",
+      safe: "#D8EFE0",
+      lessSafe: "#f0e7d2",
+      leastSafe: "#FDDFDD",
+      default: "#ebebec",
+      changedFromBaseline: "#D0E8FF",
+      textPrimary: "#000000",
+      textSecondary: "#000000",
+    },
+    softPastel: {
+      upperBoxes: "#ffffff",
+      noSeekNoAccess: "#E8E8E8",
+      safe: "#A8E6A8",
+      lessSafe: "#FFCE7D",
+      leastSafe: "#FFA8A0",
+      default: "#F5F5F5",
+      changedFromBaseline: "#D0E8FF",
+      textPrimary: "#2C3E50",
+      textSecondary: "#2C3E50",
+    },
+    warmPastel: {
+      upperBoxes: "#FFE5D9",
+      noSeekNoAccess: "#E8E8E8",
+      safe: "#A8E6CF",
+      lessSafe: "#FFD3B6",
+      leastSafe: "#FFAAA5",
+      default: "#F5F5F5",
+      changedFromBaseline: "#D0E8FF",
+      textPrimary: "#37474F",
+      textSecondary: "#37474F",
+    },
+    coolMuted: {
+      upperBoxes: "#D1E8E2",
+      noSeekNoAccess: "#E8E8E8",
+      safe: "#9FD7C7",
+      lessSafe: "#FFD89B",
+      leastSafe: "#F5A593",
+      default: "#F5F5F5",
+      changedFromBaseline: "#D0E8FF",
+      textPrimary: "#2C3E50",
+      textSecondary: "#2C3E50",
+    },
+  },
+
+  utility: {
+    lightGray: "#F5F5F5",
+    mediumLightGray: "#E8E8E8",
+    lightBlue: "#D0E8FF",
+  },
+} as const;

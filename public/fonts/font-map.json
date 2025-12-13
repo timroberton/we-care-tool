@@ -1,0 +1,28 @@
+{
+  "ttf": {
+    "Roboto-400-normal": "Roboto-Regular.ttf",
+    "RobotoMono-700-normal": "RobotoMono-Bold.ttf",
+    "RobotoMono-400-normal": "RobotoMono-Regular.ttf",
+    "RobotoBlack-900-normal": "Roboto-Black.ttf",
+    "Roboto-400-italic": "Roboto-Italic.ttf",
+    "RobotoBlack-900-italic": "Roboto-BlackItalic.ttf",
+    "Roboto-700-normal": "Roboto-Bold.ttf",
+    "Roboto-700-italic": "Roboto-BoldItalic.ttf"
+  },
+  "woff2": {
+    "Roboto-400-normal": "Roboto-Regular.woff2",
+    "RobotoMono-700-normal": "RobotoMono-Bold.woff2",
+    "RobotoMono-400-normal": "RobotoMono-Regular.woff2",
+    "RobotoBlack-900-normal": "Roboto-Black.woff2",
+    "Roboto-400-italic": "Roboto-Italic.woff2",
+    "RobotoBlack-900-italic": "Roboto-BlackItalic.woff2",
+    "Roboto-700-normal": "Roboto-Bold.woff2",
+    "Roboto-700-italic": "Roboto-BoldItalic.woff2"
+  },
+  "generated": {
+    "timestamp": "2025-12-02T05:26:49.247Z",
+    "sourceDirectory": ".",
+    "basePath": "/fonts",
+    "fontCount": 24
+  }
+}
