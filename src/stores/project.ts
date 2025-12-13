@@ -637,6 +637,7 @@ async function createProjectInStorage(
     baselineMetadata,
     params,
     reports: [],
+    uploadedFiles: [],
   };
   await saveProjectToStorage(project);
   return project;
@@ -675,6 +676,7 @@ async function duplicateProjectInStorage(
     params: clonedParams,
     reports: clonedReports,
     userContext: sourceProject.userContext,
+    uploadedFiles: [],
   };
 
   await saveProjectToStorage(project);

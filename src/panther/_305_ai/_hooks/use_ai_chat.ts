@@ -83,8 +83,17 @@ export function useAIChat(configOverride?: Partial<AIChatConfig>) {
     return payload;
   };
 
-  const createUserMessage = (text: string, includeDocuments: boolean): MessageParam => {
-    const documentRefs = includeDocuments ? (config.getDocumentRefs?.() || []) : [];
+  const messagesContainDocuments = (): boolean => {
+    return messages().some((msg) => {
+      if (typeof msg.content === "string") return false;
+      return msg.content.some((block) => block.type === "document");
+    });
+  };
+
+  const createUserMessage = (text: string): MessageParam => {
+    // Include documents if we have them AND they're not already in the message array
+    const shouldIncludeDocuments = !messagesContainDocuments();
+    const documentRefs = shouldIncludeDocuments ? (config.getDocumentRefs?.() || []) : [];
     if (documentRefs.length === 0) {
       return { role: "user", content: text };
     }
@@ -113,10 +122,7 @@ export function useAIChat(configOverride?: Partial<AIChatConfig>) {
 
     // Only add user message if provided (undefined means messages already in state)
     if (userMessage !== undefined) {
-      // Include documents only if this is the first message in the conversation
-      const isFirstMessage = messages().length === 0;
-      const userMsg = createUserMessage(userMessage, isFirstMessage);
-
+      const userMsg = createUserMessage(userMessage);
       setMessages([...messages(), userMsg]);
 
       if (userMessage.trim()) {
@@ -182,10 +188,7 @@ export function useAIChat(configOverride?: Partial<AIChatConfig>) {
 
     // Only add user message if provided (undefined means messages already in state)
     if (userMessage !== undefined) {
-      // Include documents only if this is the first message in the conversation
-      const isFirstMessage = messages().length === 0;
-      const userMsg = createUserMessage(userMessage, isFirstMessage);
-
+      const userMsg = createUserMessage(userMessage);
       setMessages([...messages(), userMsg]);
 
       if (userMessage.trim()) {
@@ -326,11 +329,15 @@ export function useAIChat(configOverride?: Partial<AIChatConfig>) {
     if (userMessages.length === 0) return;
 
     // Add all user messages to conversation
-    // Include documents only in the first message if conversation is empty
-    const isFirstMessage = messages().length === 0;
-    const messagesToAdd: MessageParam[] = userMessages.map((text, index) =>
-      createUserMessage(text, isFirstMessage && index === 0)
-    );
+    // Include documents only in the first message of batch if not already in conversation
+    const shouldIncludeDocsOnFirst = !messagesContainDocuments();
+    const messagesToAdd: MessageParam[] = userMessages.map((text, index) => {
+      if (index === 0 && shouldIncludeDocsOnFirst) {
+        return createUserMessage(text);
+      }
+      // For subsequent messages in batch, just create plain text message
+      return { role: "user" as const, content: text };
+    });
 
     const newMessages = [...messages(), ...messagesToAdd];
     setMessages(newMessages);

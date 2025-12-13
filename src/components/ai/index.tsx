@@ -20,7 +20,7 @@ import { uiStore } from "~/stores/ui";
 import { loadAIAssistantSystemPrompt } from "~/ai_context/loader";
 import { AIAssistantInfoModal } from "~/components/AIAssistantInfoModal";
 import { t, language } from "~/translate/mod";
-import { projectStore, type UploadedFile } from "~/stores/project";
+import { projectStore } from "~/stores/project";
 
 type Props = {
   results: Results;
@@ -99,7 +99,6 @@ export function AIAssistant(p: Props) {
         results={p.results}
         country={p.country}
         isDev={isDev}
-        uploadedFiles={projectStore.uploadedFiles}
       />
     </AIChatProvider>
   );
@@ -117,7 +116,6 @@ function ChatWithHeader(props: {
   results: Results;
   country: string;
   isDev: boolean;
-  uploadedFiles: UploadedFile[];
 }) {
   const { clearConversation, messages } = useAIChat();
 
@@ -207,7 +205,7 @@ function ChatWithHeader(props: {
             />
           </Match>
           <Match when={props.tabs.currentTab() === "documents"}>
-            <FileUploadPanel uploadedFiles={props.uploadedFiles} />
+            <FileUploadPanel />
           </Match>
           <Match when={props.tabs.currentTab() === "userContext"}>
             <AIUserContext />

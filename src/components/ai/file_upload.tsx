@@ -3,11 +3,7 @@ import { For, Show, createSignal } from "solid-js";
 import { projectStore, type UploadedFile } from "~/stores/project";
 import { t } from "~/translate/mod";
 
-type Props = {
-  uploadedFiles: UploadedFile[];
-};
-
-export function FileUploadPanel(p: Props) {
+export function FileUploadPanel() {
   const [isUploading, setIsUploading] = createSignal(false);
   const [error, setError] = createSignal<string | null>(null);
 
@@ -115,7 +111,7 @@ export function FileUploadPanel(p: Props) {
           <div class="text-error text-sm ui-spb-sm">{error()}</div>
         </Show>
         <Show
-          when={p.uploadedFiles.length > 0}
+          when={projectStore.uploadedFiles.length > 0}
           fallback={
             <div class="text-sm text-neutral italic">
               {t("No documents uploaded")}
@@ -123,7 +119,7 @@ export function FileUploadPanel(p: Props) {
           }
         >
           <div class="ui-spy-sm">
-            <For each={p.uploadedFiles}>
+            <For each={projectStore.uploadedFiles}>
               {(file) => (
                 <div class="flex items-center justify-between bg-base-200 rounded ui-gap ui-pad-sm">
                   <div class="flex items-center ui-gap-sm flex-1 w-0">
