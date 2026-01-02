@@ -26,10 +26,12 @@
         "npm:markdown-it@^14.1.0",
         "npm:netlify-cli@^23.10.0",
         "npm:papaparse@^5.5.3",
+        "npm:playwright@^1.57.0",
         "npm:solid-js@^1.9.5",
         "npm:sortablejs@^1.15.6",
         "npm:tailwindcss@^4.0.7",
         "npm:tsx@^4.20.6",
+        "npm:typescript@^5.9.3",
         "npm:vite-plugin-solid@^2.10.2",
         "npm:vite-tsconfig-paths@^5.1.4",
         "npm:vite@^6.0.11"
