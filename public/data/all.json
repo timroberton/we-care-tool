@@ -6,7 +6,7 @@
       "country": "Bangladesh",
       "parameters": {
         "baseline": {
-          "id": "fe1dc8bc-dde0-41bd-9381-021aa7d92ffa",
+          "id": "88985547-5a4f-4969-9ec9-84e96e37552f",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1120883,
@@ -62,7 +62,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "fe1dc8bc-dde0-41bd-9381-021aa7d92ffa",
+          "id": "88985547-5a4f-4969-9ec9-84e96e37552f",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1120883,
@@ -266,7 +266,7 @@
       "country": "Burkina Faso",
       "parameters": {
         "baseline": {
-          "id": "d28ff563-1a1e-4ee3-bd2a-1f029c2254fe",
+          "id": "a3cc4a5c-8b91-4511-ba4b-38c8b6646bf7",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -322,7 +322,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "d28ff563-1a1e-4ee3-bd2a-1f029c2254fe",
+          "id": "a3cc4a5c-8b91-4511-ba4b-38c8b6646bf7",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -526,7 +526,7 @@
       "country": "Côte d'Ivoire",
       "parameters": {
         "baseline": {
-          "id": "13a337c9-0d43-4ceb-b376-00902ba25298",
+          "id": "1933851a-9dc5-4710-8c08-67cc84a50c42",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -582,7 +582,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "13a337c9-0d43-4ceb-b376-00902ba25298",
+          "id": "1933851a-9dc5-4710-8c08-67cc84a50c42",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -785,7 +785,7 @@
       "label": "Default AFRO region",
       "parameters": {
         "baseline": {
-          "id": "afb926d5-e330-4283-81c6-2fa2bb3e39b6",
+          "id": "7684f544-677b-45d9-93af-24eed2a56ca9",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -841,7 +841,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "afb926d5-e330-4283-81c6-2fa2bb3e39b6",
+          "id": "7684f544-677b-45d9-93af-24eed2a56ca9",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -1044,7 +1044,7 @@
       "label": "Default SEARO region",
       "parameters": {
         "baseline": {
-          "id": "df264c9f-8293-40ba-b61b-4aabfc19aadd",
+          "id": "ca230fa3-a7e4-4182-bbee-6c3354d9842e",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1120883,
@@ -1100,7 +1100,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "df264c9f-8293-40ba-b61b-4aabfc19aadd",
+          "id": "ca230fa3-a7e4-4182-bbee-6c3354d9842e",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1120883,
@@ -1304,7 +1304,7 @@
       "country": "Democratic Republic of the Congo",
       "parameters": {
         "baseline": {
-          "id": "7330bf41-4fc3-4ba2-b9cf-d6ffeb88b0c1",
+          "id": "e954d679-bacd-4ef3-8838-f5fcc4bc631f",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -1360,7 +1360,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "7330bf41-4fc3-4ba2-b9cf-d6ffeb88b0c1",
+          "id": "e954d679-bacd-4ef3-8838-f5fcc4bc631f",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -1564,7 +1564,7 @@
       "country": "Ghana",
       "parameters": {
         "baseline": {
-          "id": "9f845942-5c5f-4477-b99f-37b00fbd1489",
+          "id": "0d47c76f-2b67-48a5-8c0b-713bf09bdbf0",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1295400,
@@ -1620,7 +1620,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "9f845942-5c5f-4477-b99f-37b00fbd1489",
+          "id": "0d47c76f-2b67-48a5-8c0b-713bf09bdbf0",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1295400,
@@ -1824,7 +1824,7 @@
       "country": "Guinea-Bissau",
       "parameters": {
         "baseline": {
-          "id": "94526731-950e-4f88-9896-24762a212c12",
+          "id": "8cea4960-3d43-474c-a3f8-78b666fc767a",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -1880,7 +1880,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "94526731-950e-4f88-9896-24762a212c12",
+          "id": "8cea4960-3d43-474c-a3f8-78b666fc767a",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2084,7 +2084,7 @@
       "country": "Kenya",
       "parameters": {
         "baseline": {
-          "id": "b6e05960-e691-467f-8ac6-9db1e3e0feb4",
+          "id": "d822ac48-4de9-4e54-9d9e-adfc58cb04f3",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2140,7 +2140,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "b6e05960-e691-467f-8ac6-9db1e3e0feb4",
+          "id": "d822ac48-4de9-4e54-9d9e-adfc58cb04f3",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2344,7 +2344,7 @@
       "country": "Liberia",
       "parameters": {
         "baseline": {
-          "id": "35cd5bde-80b4-4718-98ce-dc83b5687a10",
+          "id": "9dbf3ed7-9589-4e64-b32b-0080e4377753",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2400,7 +2400,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "35cd5bde-80b4-4718-98ce-dc83b5687a10",
+          "id": "9dbf3ed7-9589-4e64-b32b-0080e4377753",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2604,7 +2604,7 @@
       "country": "Malawi",
       "parameters": {
         "baseline": {
-          "id": "5b634dc7-c407-4ae5-84e6-c7693e125657",
+          "id": "1d1c633c-d070-4576-9ce9-b33b5643b129",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2660,7 +2660,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "5b634dc7-c407-4ae5-84e6-c7693e125657",
+          "id": "1d1c633c-d070-4576-9ce9-b33b5643b129",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2864,7 +2864,7 @@
       "country": "Mozambique",
       "parameters": {
         "baseline": {
-          "id": "7e4bb7a5-a3ef-4a18-9f26-e26a1e85e667",
+          "id": "997728e1-9464-409e-a6fa-d5c80521f664",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -2920,7 +2920,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "7e4bb7a5-a3ef-4a18-9f26-e26a1e85e667",
+          "id": "997728e1-9464-409e-a6fa-d5c80521f664",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -3124,27 +3124,27 @@
       "country": "Nepal",
       "parameters": {
         "baseline": {
-          "id": "860a7e40-7be3-4642-ba6e-e05bb16b5d83",
+          "id": "6bd09022-b0dd-4380-8fcd-542235994112",
           "name": "Base case",
           "pregnancyOutcomes": {
-            "nUnintendedPregnancies": 1120883,
-            "pResultingInMiscarriage": 0.15,
+            "nUnintendedPregnancies": 456965,
+            "pResultingInMiscarriage": 0.09,
             "pResultingInContraindication": 0
           },
           "familyPlanning": {
-            "pDemandForFamilyPlanning": 0.83,
-            "pMetDemandForFamilyPlanning": 0.7,
+            "pDemandForFamilyPlanning": 0.78,
+            "pMetDemandForFamilyPlanning": 0.74,
             "pCombinedEffectivenessOfMethods": 0.86
           },
           "demand": {
-            "pDemandForAbortion": 0.64,
-            "pPreferFacility": 0.45
+            "pDemandForAbortion": 0.69,
+            "pPreferFacility": 0.48
           },
           "facilityAccess": {
             "pNoLegalRestrictions": 0.73,
-            "pFacilityOffersAbortion": 0.4,
-            "pFacilityOffersPostAbortionCare": 0.23,
-            "pAccessibleDistance": 0.92,
+            "pFacilityOffersAbortion": 0.192,
+            "pFacilityOffersPostAbortionCare": 0.82,
+            "pAccessibleDistance": 0.192,
             "pAffordable": 0.55
           },
           "outOfFacilityAccess": {
@@ -3152,21 +3152,21 @@
             "pAffordable": 0.35
           },
           "facilityReadiness": {
-            "hw": 0.39,
+            "hw": 0.34,
             "miso": 0.94,
             "mife": 0,
-            "vacasp": 0.94,
+            "vacasp": 0.68,
             "dilevac": 0,
             "dilcur": 0.94,
-            "latexgloves": 0.89,
-            "antiseptic": 0.67,
-            "antibiotics": 1,
-            "cemonc": 0.16
+            "latexgloves": 0.87,
+            "antiseptic": 0.94,
+            "antibiotics": 0.87,
+            "cemonc": 0.28
           },
           "outOfFacilityReadiness": {
             "hw": 0.35,
-            "miso": 0.65,
-            "mife": 0.45,
+            "miso": 0.38,
+            "mife": 0.38,
             "other": 0.4
           },
           "adjustments": {
@@ -3180,27 +3180,27 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "860a7e40-7be3-4642-ba6e-e05bb16b5d83",
+          "id": "6bd09022-b0dd-4380-8fcd-542235994112",
           "name": "Base case",
           "pregnancyOutcomes": {
-            "nUnintendedPregnancies": 1120883,
-            "pResultingInMiscarriage": 0.15,
+            "nUnintendedPregnancies": 456965,
+            "pResultingInMiscarriage": 0.09,
             "pResultingInContraindication": 0
           },
           "familyPlanning": {
-            "pDemandForFamilyPlanning": 0.83,
-            "pMetDemandForFamilyPlanning": 0.7,
+            "pDemandForFamilyPlanning": 0.78,
+            "pMetDemandForFamilyPlanning": 0.74,
             "pCombinedEffectivenessOfMethods": 0.86
           },
           "demand": {
-            "pDemandForAbortion": 0.64,
-            "pPreferFacility": 0.45
+            "pDemandForAbortion": 0.69,
+            "pPreferFacility": 0.48
           },
           "facilityAccess": {
             "pNoLegalRestrictions": 0.73,
-            "pFacilityOffersAbortion": 0.4,
-            "pFacilityOffersPostAbortionCare": 0.23,
-            "pAccessibleDistance": 0.92,
+            "pFacilityOffersAbortion": 0.192,
+            "pFacilityOffersPostAbortionCare": 0.82,
+            "pAccessibleDistance": 0.192,
             "pAffordable": 0.55
           },
           "outOfFacilityAccess": {
@@ -3208,21 +3208,21 @@
             "pAffordable": 0.35
           },
           "facilityReadiness": {
-            "hw": 0.39,
+            "hw": 0.34,
             "miso": 0.94,
             "mife": 0,
-            "vacasp": 0.94,
+            "vacasp": 0.68,
             "dilevac": 0,
             "dilcur": 0.94,
-            "latexgloves": 0.89,
-            "antiseptic": 0.67,
-            "antibiotics": 1,
-            "cemonc": 0.16
+            "latexgloves": 0.87,
+            "antiseptic": 0.94,
+            "antibiotics": 0.87,
+            "cemonc": 0.28
           },
           "outOfFacilityReadiness": {
             "hw": 0.35,
-            "miso": 0.65,
-            "mife": 0.45,
+            "miso": 0.38,
+            "mife": 0.38,
             "other": 0.4
           },
           "adjustments": {
@@ -3384,7 +3384,7 @@
       "country": "Niger",
       "parameters": {
         "baseline": {
-          "id": "1236ed98-6c1e-49e7-92c1-75c4d9c21463",
+          "id": "e6ae157d-7337-40e1-b55c-b2bfd05eb779",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -3440,7 +3440,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "1236ed98-6c1e-49e7-92c1-75c4d9c21463",
+          "id": "e6ae157d-7337-40e1-b55c-b2bfd05eb779",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -3644,7 +3644,7 @@
       "country": "Pakistan",
       "parameters": {
         "baseline": {
-          "id": "c5a23913-ded1-431a-a561-264e01064209",
+          "id": "61855a8e-6c4d-4107-91fc-9b20c412c533",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1120883,
@@ -3700,7 +3700,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "c5a23913-ded1-431a-a561-264e01064209",
+          "id": "61855a8e-6c4d-4107-91fc-9b20c412c533",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 1120883,
@@ -3904,7 +3904,7 @@
       "country": "Rwanda",
       "parameters": {
         "baseline": {
-          "id": "76d92096-933f-43ab-8916-a1f61308fd80",
+          "id": "78619816-5319-4858-93e4-f68d3db1e271",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 225400,
@@ -3960,7 +3960,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "76d92096-933f-43ab-8916-a1f61308fd80",
+          "id": "78619816-5319-4858-93e4-f68d3db1e271",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 225400,
@@ -4164,7 +4164,7 @@
       "country": "Sierra Leone",
       "parameters": {
         "baseline": {
-          "id": "745ebe98-4e45-42b7-98da-a4898458a752",
+          "id": "c0d4235c-87e4-42c1-84e7-8bdbb4dbf46e",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -4220,7 +4220,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "745ebe98-4e45-42b7-98da-a4898458a752",
+          "id": "c0d4235c-87e4-42c1-84e7-8bdbb4dbf46e",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 200000,
@@ -4424,27 +4424,27 @@
       "country": "Uganda",
       "parameters": {
         "baseline": {
-          "id": "63ff9a0b-ee18-49a2-b5de-1b2f31c2b426",
+          "id": "dd6b49c8-bed6-4adb-8eb6-f69139995ce5",
           "name": "Base case",
           "pregnancyOutcomes": {
-            "nUnintendedPregnancies": 200000,
+            "nUnintendedPregnancies": 660141,
             "pResultingInMiscarriage": 0.15,
             "pResultingInContraindication": 0
           },
           "familyPlanning": {
-            "pDemandForFamilyPlanning": 0.77,
-            "pMetDemandForFamilyPlanning": 0.56,
+            "pDemandForFamilyPlanning": 0.66,
+            "pMetDemandForFamilyPlanning": 0.42,
             "pCombinedEffectivenessOfMethods": 0.86
           },
           "demand": {
-            "pDemandForAbortion": 0.3,
-            "pPreferFacility": 0.3
+            "pDemandForAbortion": 0.33,
+            "pPreferFacility": 0.88
           },
           "facilityAccess": {
             "pNoLegalRestrictions": 0.08,
-            "pFacilityOffersAbortion": 0.35,
-            "pFacilityOffersPostAbortionCare": 0.47,
-            "pAccessibleDistance": 0.9,
+            "pFacilityOffersAbortion": 0.67,
+            "pFacilityOffersPostAbortionCare": 0.46,
+            "pAccessibleDistance": 0.64,
             "pAffordable": 0.4
           },
           "outOfFacilityAccess": {
@@ -4452,22 +4452,22 @@
             "pAffordable": 0.25
           },
           "facilityReadiness": {
-            "hw": 0.57,
-            "miso": 0.62,
-            "mife": 0.06,
-            "vacasp": 0.57,
-            "dilevac": 0.26,
-            "dilcur": 0.18,
-            "latexgloves": 0.48,
+            "hw": 0.19,
+            "miso": 0.91,
+            "mife": 0.2,
+            "vacasp": 0.81,
+            "dilevac": 0.2,
+            "dilcur": 0.7,
+            "latexgloves": 1,
             "antiseptic": 0.4,
-            "antibiotics": 0.75,
-            "cemonc": 0.16
+            "antibiotics": 0.99,
+            "cemonc": 0.25
           },
           "outOfFacilityReadiness": {
-            "hw": 0.2,
-            "miso": 0.5,
-            "mife": 0.15,
-            "other": 0.55
+            "hw": 0.13,
+            "miso": 0.2,
+            "mife": 0.2,
+            "other": 0.2
           },
           "adjustments": {
             "familyPlanning": false,
@@ -4480,27 +4480,27 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "63ff9a0b-ee18-49a2-b5de-1b2f31c2b426",
+          "id": "dd6b49c8-bed6-4adb-8eb6-f69139995ce5",
           "name": "Base case",
           "pregnancyOutcomes": {
-            "nUnintendedPregnancies": 200000,
+            "nUnintendedPregnancies": 660141,
             "pResultingInMiscarriage": 0.15,
             "pResultingInContraindication": 0
           },
           "familyPlanning": {
-            "pDemandForFamilyPlanning": 0.77,
-            "pMetDemandForFamilyPlanning": 0.56,
+            "pDemandForFamilyPlanning": 0.66,
+            "pMetDemandForFamilyPlanning": 0.42,
             "pCombinedEffectivenessOfMethods": 0.86
           },
           "demand": {
-            "pDemandForAbortion": 0.3,
-            "pPreferFacility": 0.3
+            "pDemandForAbortion": 0.33,
+            "pPreferFacility": 0.88
           },
           "facilityAccess": {
             "pNoLegalRestrictions": 0.08,
-            "pFacilityOffersAbortion": 0.35,
-            "pFacilityOffersPostAbortionCare": 0.47,
-            "pAccessibleDistance": 0.9,
+            "pFacilityOffersAbortion": 0.67,
+            "pFacilityOffersPostAbortionCare": 0.46,
+            "pAccessibleDistance": 0.64,
             "pAffordable": 0.4
           },
           "outOfFacilityAccess": {
@@ -4508,22 +4508,22 @@
             "pAffordable": 0.25
           },
           "facilityReadiness": {
-            "hw": 0.57,
-            "miso": 0.62,
-            "mife": 0.06,
-            "vacasp": 0.57,
-            "dilevac": 0.26,
-            "dilcur": 0.18,
-            "latexgloves": 0.48,
+            "hw": 0.19,
+            "miso": 0.91,
+            "mife": 0.2,
+            "vacasp": 0.81,
+            "dilevac": 0.2,
+            "dilcur": 0.7,
+            "latexgloves": 1,
             "antiseptic": 0.4,
-            "antibiotics": 0.75,
-            "cemonc": 0.16
+            "antibiotics": 0.99,
+            "cemonc": 0.25
           },
           "outOfFacilityReadiness": {
-            "hw": 0.2,
-            "miso": 0.5,
-            "mife": 0.15,
-            "other": 0.55
+            "hw": 0.13,
+            "miso": 0.2,
+            "mife": 0.2,
+            "other": 0.2
           },
           "adjustments": {
             "familyPlanning": false,
@@ -4684,7 +4684,7 @@
       "country": "Zambia",
       "parameters": {
         "baseline": {
-          "id": "0622ae27-0a2a-4978-ab50-d5788df582c6",
+          "id": "f1be75ec-854c-4be9-ba1f-eda8cd0b5eb4",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 439000,
@@ -4740,7 +4740,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "0622ae27-0a2a-4978-ab50-d5788df582c6",
+          "id": "f1be75ec-854c-4be9-ba1f-eda8cd0b5eb4",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 439000,
@@ -4944,7 +4944,7 @@
       "country": "Zimbabwe",
       "parameters": {
         "baseline": {
-          "id": "5ff2c0e6-6284-4ca7-bf59-70ca9029017f",
+          "id": "50f2473d-f238-43f1-8391-2867001a3ff4",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 270000,
@@ -5000,7 +5000,7 @@
         },
         "scenarios": [],
         "originalBaseline": {
-          "id": "5ff2c0e6-6284-4ca7-bf59-70ca9029017f",
+          "id": "50f2473d-f238-43f1-8391-2867001a3ff4",
           "name": "Base case",
           "pregnancyOutcomes": {
             "nUnintendedPregnancies": 270000,
