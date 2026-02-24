@@ -1,31 +1,31 @@
-﻿parameter_id,label,africa,asia,ghana,pakistan,zambia,zimbabwe,rwanda,drc,liberia,bangladesh,kenya,mozambique,burkina faso,côte d'ivoire,guinea-bissau,niger,sierra leone,uganda,nepal,malawi
+parameter_id,label,africa,asia,ghana,pakistan,zambia,zimbabwe,rwanda,drc,liberia,bangladesh,kenya,mozambique,burkina faso,côte d'ivoire,guinea-bissau,niger,sierra leone,uganda,nepal,malawi
 ,,Default AFRO region,Default SEARO region,Ghana,Pakistan,Zambia,Zimbabwe,Rwanda,Democratic Republic of the Congo,Liberia,Bangladesh,Kenya,Mozambique,Burkina Faso,Côte d'Ivoire,Guinea-Bissau,Niger,Sierra Leone,Uganda,Nepal,Malawi
 ,,,,"Ghana","Pakistan","Zambia","Zimbabwe","Rwanda","Democratic Republic of the Congo","Liberia","Bangladesh","Kenya","Mozambique","Burkina Faso","Côte d'Ivoire","Guinea-Bissau","Niger","Sierra Leone","Uganda","Nepal","Malawi"
-pregnancyOutcomes.nUnintendedPregnancies,Number of unintended pregnancies,"200,000","1,120,883","1,295,400","1,120,883","439,000","270,000","225,400","200,000","200,000","1,120,883","200,000","200,000","200,000","200,000","200,000","200,000","200,000","200,000","1,120,883","200,000"
-pregnancyOutcomes.pResultingInMiscarriage,Proportion of pregnancies resulting in miscarriage,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%
-demand.pDemandForAbortion,Proportion of unintended pregnancies for which abortion is sought,35%,64%,36%,64%,28%,25%,29%,35%,35%,60%,38%,35%,35%,37%,59%,31%,35%,30%,64%,35%
-demand.pPreferFacility,Proportion of women seeking an induced abortion whose preference is to initiate abortion in a facility,30%,45%,37%,45%,30%,30%,30%,30%,30%,45%,30%,30%,30%,30%,30%,30%,30%,30%,45%,30%
+pregnancyOutcomes.nUnintendedPregnancies,Number of unintended pregnancies,"200,000","1,120,883","1,295,400","1,120,883","439,000","270,000","225,400","200,000","200,000","1,120,883","200,000","200,000","200,000","200,000","200,000","200,000","200,000","660,141","456,965","200,000"
+pregnancyOutcomes.pResultingInMiscarriage,Proportion of pregnancies resulting in miscarriage,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,15%,9%,15%
+demand.pDemandForAbortion,Proportion of unintended pregnancies for which abortion is sought,35%,64%,36%,64%,28%,25%,29%,35%,35%,60%,38%,35%,35%,37%,59%,31%,35%,33%,69%,35%
+demand.pPreferFacility,Proportion of women seeking an induced abortion whose preference is to initiate abortion in a facility,30%,45%,37%,45%,30%,30%,30%,30%,30%,45%,30%,30%,30%,30%,30%,30%,30%,88%,48%,30%
 facilityAccess.pNoLegalRestrictions,Proportion of unintended pregnancies for which abortion is not legally restricted,8%,73%,65%,73%,8%,8%,8%,8%,8%,73%,8%,8%,8%,8%,8%,8%,8%,8%,73%,8%
-facilityAccess.pFacilityOffersAbortion,Proportion of facilities offering abortion services,35%,40%,39%,8%,6%,78%,35%,22%,43%,40%,35%,35%,35%,35%,35%,35%,35%,35%,40%,35%
-facilityAccess.pFacilityOffersPostAbortionCare,Proportion of facilities offering post-abortion care services,47%,23%,47%,23%,47%,47%,33%,6%,68%,23%,47%,47%,47%,47%,47%,47%,47%,47%,23%,47%
-facilityAccess.pAccessibleDistance,Proportion of women within accessible distance of a facility,90%,92%,98%,40%,82%,80%,90%,90%,90%,92%,90%,90%,90%,90%,90%,90%,90%,90%,92%,90%
+facilityAccess.pFacilityOffersAbortion,Proportion of facilities offering abortion services,35%,40%,39%,8%,6%,78%,35%,22%,43%,40%,35%,35%,35%,35%,35%,35%,35%,67%,19.2%,35%
+facilityAccess.pFacilityOffersPostAbortionCare,Proportion of facilities offering post-abortion care services,47%,23%,47%,23%,47%,47%,33%,6%,68%,23%,47%,47%,47%,47%,47%,47%,47%,46%,82%,47%
+facilityAccess.pAccessibleDistance,Proportion of women within accessible distance of a facility,90%,92%,98%,40%,82%,80%,90%,90%,90%,92%,90%,90%,90%,90%,90%,90%,90%,64%,19.2%,90%
 facilityAccess.pAffordable,Proportion of women for whom the cost of facility-based care is not a barrier,40%,55%,40%,55%,40%,40%,40%,40%,40%,55%,40%,40%,40%,40%,40%,40%,40%,40%,55%,40%
 outOfFacilityAccess.pAccessibleDistance,Proportion of women within accessible distance of an out-of-facility provider,45%,60%,45%,60%,45%,45%,45%,45%,45%,60%,45%,45%,45%,45%,45%,45%,45%,45%,60%,45%
 outOfFacilityAccess.pAffordable,Proportion of women for whom the cost of out-of-facility care is not a barrier,25%,35%,25%,35%,25%,25%,25%,25%,25%,35%,25%,25%,25%,25%,25%,25%,25%,25%,35%,25%
-facilityReadiness.hw,Facility: Health worker competent in abortion care,57%,39%,57%,6%,29%,14%,57%,57%,57%,39%,57%,57%,57%,57%,57%,57%,57%,57%,39%,57%
-facilityReadiness.miso,Facility: Misoprostol,62%,94%,83%,75%,69%,29%,62%,59%,69%,94%,62%,62%,62%,62%,62%,62%,62%,62%,94%,62%
-facilityReadiness.mife,Facility: Mifepristone,6%,0%,33%,2%,6%,2%,6%,6%,6%,0%,6%,6%,6%,6%,6%,6%,6%,6%,0%,6%
-facilityReadiness.vacasp,"Facility: Vacuum aspiration kit (MVA, EVA kit)",57%,94%,74%,60%,80%,5%,57%,57%,63%,94%,57%,57%,57%,57%,57%,57%,57%,57%,94%,57%
-facilityReadiness.dilevac,Facility: Dilation and evacuation kit (D&E kit),26%,0%,37%,43%,0%,26%,26%,26%,26%,0%,26%,26%,26%,26%,26%,26%,26%,26%,0%,26%
-facilityReadiness.dilcur,Facility: Dilation and curettage kit (D&C kit),18%,94%,36%,59%,80%,6%,18%,18%,63%,94%,18%,18%,18%,18%,18%,18%,18%,18%,94%,18%
-facilityReadiness.latexgloves,Facility: Disposable latex gloves (sterile),48%,89%,79%,53%,40%,63%,48%,48%,7%,89%,48%,48%,48%,48%,48%,48%,48%,48%,89%,48%
-facilityReadiness.antiseptic,Facility: Antiseptic for cleaning cervix,40%,67%,74%,57%,40%,54%,40%,40%,4%,67%,40%,40%,40%,40%,40%,40%,40%,40%,67%,40%
-facilityReadiness.antibiotics,Facility: Antibiotics for prophylaxis,75%,100%,65%,78%,81%,67%,75%,79%,63%,100%,75%,75%,75%,75%,75%,75%,75%,75%,100%,75%
-facilityReadiness.cemonc,Facility: CEmONC,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%
-outOfFacilityReadiness.hw,Out-of-facility: Health worker competent in abortion care,20%,35%,20%,35%,20%,20%,20%,20%,20%,35%,20%,20%,20%,20%,20%,20%,20%,20%,35%,20%
-outOfFacilityReadiness.miso,Out-of-facility: Misoprostol,50%,65%,74%,65%,50%,50%,50%,50%,50%,65%,50%,50%,50%,50%,50%,50%,50%,50%,65%,50%
-outOfFacilityReadiness.mife,Out-of-facility: Mifepristone,15%,45%,15%,45%,15%,15%,15%,15%,15%,45%,15%,15%,15%,15%,15%,15%,15%,15%,45%,15%
-outOfFacilityReadiness.other,Out-of-facility: Other items for non-recommended out-of-facility services,55%,40%,55%,40%,55%,55%,55%,55%,55%,40%,55%,55%,55%,55%,55%,55%,55%,55%,40%,55%
-familyPlanning.pDemandForFamilyPlanning,Demand for family planning,77%,83%,77%,83%,77%,78%,77%,77%,77%,83%,77%,77%,77%,77%,77%,77%,77%,77%,83%,77%
-familyPlanning.pMetDemandForFamilyPlanning,Met demand for family planning,56%,70%,56%,70%,56%,89%,56%,56%,56%,70%,56%,56%,56%,56%,56%,56%,56%,56%,70%,56%
+facilityReadiness.hw,Facility: Health worker competent in abortion care,57%,39%,57%,6%,29%,14%,57%,57%,57%,39%,57%,57%,57%,57%,57%,57%,57%,19%,34%,57%
+facilityReadiness.miso,Facility: Misoprostol,62%,94%,83%,75%,69%,29%,62%,59%,69%,94%,62%,62%,62%,62%,62%,62%,62%,91%,94%,62%
+facilityReadiness.mife,Facility: Mifepristone,6%,0%,33%,2%,6%,2%,6%,6%,6%,0%,6%,6%,6%,6%,6%,6%,6%,20%,0%,6%
+facilityReadiness.vacasp,"Facility: Vacuum aspiration kit (MVA, EVA kit)",57%,94%,74%,60%,80%,5%,57%,57%,63%,94%,57%,57%,57%,57%,57%,57%,57%,81%,68%,57%
+facilityReadiness.dilevac,Facility: Dilation and evacuation kit (D&E kit),26%,0%,37%,43%,0%,26%,26%,26%,26%,0%,26%,26%,26%,26%,26%,26%,26%,20%,0%,26%
+facilityReadiness.dilcur,Facility: Dilation and curettage kit (D&C kit),18%,94%,36%,59%,80%,6%,18%,18%,63%,94%,18%,18%,18%,18%,18%,18%,18%,70%,94%,18%
+facilityReadiness.latexgloves,Facility: Disposable latex gloves (sterile),48%,89%,79%,53%,40%,63%,48%,48%,7%,89%,48%,48%,48%,48%,48%,48%,48%,100%,87%,48%
+facilityReadiness.antiseptic,Facility: Antiseptic for cleaning cervix,40%,67%,74%,57%,40%,54%,40%,40%,4%,67%,40%,40%,40%,40%,40%,40%,40%,40%,94%,40%
+facilityReadiness.antibiotics,Facility: Antibiotics for prophylaxis,75%,100%,65%,78%,81%,67%,75%,79%,63%,100%,75%,75%,75%,75%,75%,75%,75%,99%,87%,75%
+facilityReadiness.cemonc,Facility: CEmONC,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,16%,25%,28%,16%
+outOfFacilityReadiness.hw,Out-of-facility: Health worker competent in abortion care,20%,35%,20%,35%,20%,20%,20%,20%,20%,35%,20%,20%,20%,20%,20%,20%,20%,13%,35%,20%
+outOfFacilityReadiness.miso,Out-of-facility: Misoprostol,50%,65%,74%,65%,50%,50%,50%,50%,50%,65%,50%,50%,50%,50%,50%,50%,50%,20%,38%,50%
+outOfFacilityReadiness.mife,Out-of-facility: Mifepristone,15%,45%,15%,45%,15%,15%,15%,15%,15%,45%,15%,15%,15%,15%,15%,15%,15%,20%,38%,15%
+outOfFacilityReadiness.other,Out-of-facility: Other items for non-recommended out-of-facility services,55%,40%,55%,40%,55%,55%,55%,55%,55%,40%,55%,55%,55%,55%,55%,55%,55%,20%,40%,55%
+familyPlanning.pDemandForFamilyPlanning,Demand for family planning,77%,83%,77%,83%,77%,78%,77%,77%,77%,83%,77%,77%,77%,77%,77%,77%,77%,66%,78%,77%
+familyPlanning.pMetDemandForFamilyPlanning,Met demand for family planning,56%,70%,56%,70%,56%,89%,56%,56%,56%,70%,56%,56%,56%,56%,56%,56%,56%,42%,74%,56%
 familyPlanning.pCombinedEffectivenessOfMethods,Combined effectiveness of contraceptive methods,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%,86%
