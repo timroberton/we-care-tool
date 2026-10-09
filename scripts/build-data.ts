@@ -54,6 +54,10 @@ const dataSources = dataSourceColumns.map(({ index, id, label, country }) => {
 
   // Use the same import function as user CSV uploads
   const parameters = importParametersFromCSV(miniCsv);
+  parameters.baseline.id = id;
+  if (parameters.originalBaseline) {
+    parameters.originalBaseline.id = id;
+  }
 
   return {
     id,
