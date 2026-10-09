@@ -161,7 +161,7 @@ Les services d'avortement comportent des risques de complications variables. Le 
 
 **Taux de complications spécifiques aux services :**
 
-Chaque service a des taux de complications compilés par l'OMS à partir d'études publiées (Annexe 2, révisée en octobre 2026). Lorsqu'un service ne dispose d'aucune donnée publiée, on utilise le taux du service correspondant du secteur formel. S'il n'existe pas de service correspondant dans le secteur formel, on utilise le taux le plus élevé rapporté pour n'importe quel service. Ainsi, un service n'apparaît pas comme plus sûr simplement parce qu'il est moins documenté. Le modèle n'utilise pas l'âge gestationnel (le stade d'avancement de la grossesse) pour faire varier les taux de complications. Il utilise les estimations pour les avortements de moins de 12 semaines, sauf pour la dilatation et évacuation, qui n'est pratiquée qu'à partir de 12 semaines et pour laquelle on utilise donc les estimations à 12 semaines ou plus.
+Chaque service a des taux de complications compilés par l'OMS à partir d'études publiées (Annexe 2, révisée en octobre 2026). Les services en établissement utilisent les estimations du secteur formel pour leur méthode, et les services hors établissement celles du secteur informel. Les services fournis avec ou sans agent de santé compétent partagent les mêmes estimations, car les données disponibles ne les distinguent pas. Le modèle n'utilise pas l'âge gestationnel (le stade d'avancement de la grossesse) pour faire varier les taux de complications. Il utilise les estimations pour les avortements de moins de 12 semaines, sauf pour la dilatation et évacuation, qui n'est pratiquée qu'à partir de 12 semaines et pour laquelle on utilise donc les estimations à 12 semaines ou plus.
 
 **Calcul :**
 

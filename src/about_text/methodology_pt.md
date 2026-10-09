@@ -161,7 +161,7 @@ Os serviços de aborto carregam riscos variáveis de complicações. O modelo ac
 
 **Taxas de complicações específicas por serviço:**
 
-Cada serviço tem taxas de complicações compiladas pela OMS a partir de estudos publicados (Apêndice 2, revisto em outubro de 2026). Quando um serviço não tem dados publicados, usa-se a taxa do serviço correspondente do setor formal. Quando não existe um serviço correspondente no setor formal, usa-se a taxa mais alta relatada para qualquer serviço. Assim, um serviço não aparece como mais seguro apenas por haver menos evidência sobre ele. O modelo não usa a idade gestacional (o quanto a gravidez avançou) para variar as taxas de complicações. Usa as estimativas para abortos com menos de 12 semanas, exceto para a dilatação e evacuação, que só é realizada a partir das 12 semanas e para a qual se usam, portanto, as estimativas de 12 semanas ou mais.
+Cada serviço tem taxas de complicações compiladas pela OMS a partir de estudos publicados (Apêndice 2, revisto em outubro de 2026). Os serviços em instalações de saúde usam as estimativas do setor formal para o seu método, e os serviços fora de instalações usam as estimativas do setor informal. Os serviços prestados com ou sem profissional de saúde competente partilham as mesmas estimativas, porque a evidência não os distingue. O modelo não usa a idade gestacional (o quanto a gravidez avançou) para variar as taxas de complicações. Usa as estimativas para abortos com menos de 12 semanas, exceto para a dilatação e evacuação, que só é realizada a partir das 12 semanas e para a qual se usam, portanto, as estimativas de 12 semanas ou mais.
 
 **Cálculo:**
 

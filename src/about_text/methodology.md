@@ -161,7 +161,7 @@ Abortion services carry varying complication risks. The model tracks six complic
 
 **Service-specific complication rates:**
 
-Each service has complication rates compiled by WHO from published studies (Appendix 2, revised October 2026). Where a service has no published data, the rate of the matching formal-sector service is used. Where there is no matching formal-sector service, the highest rate reported for any service is used. This way, a service is not shown as safer only because less evidence exists about it. The model does not use gestational age (how far the pregnancy has progressed) to vary complication rates. It uses the estimates for abortions under 12 weeks, except for dilation and evacuation, which is only performed at 12 weeks or later, so the estimates for 12 weeks or later are used for it.
+Each service has complication rates compiled by WHO from published studies (Appendix 2, revised October 2026). Facility services use the formal-sector estimates for their method, and out-of-facility services use the informal-sector estimates. Services provided with and without a competent health worker share the same estimates, because the evidence does not separate them. The model does not use gestational age (how far the pregnancy has progressed) to vary complication rates. It uses the estimates for abortions under 12 weeks, except for dilation and evacuation, which is only performed at 12 weeks or later, so the estimates for 12 weeks or later are used for it.
 
 **Calculation:**
 
