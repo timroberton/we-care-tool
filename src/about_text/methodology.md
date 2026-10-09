@@ -161,7 +161,7 @@ Abortion services carry varying complication risks. The model tracks six complic
 
 **Service-specific complication rates:**
 
-Each service has empirically-derived complication rates. Safe methods (medication abortion with competent health worker, vacuum aspiration) have substantially lower complication rates than less safe methods (D&C, medication without health worker support) or least safe methods (dangerous traditional practices).
+Each service has complication rates compiled by WHO from published studies (Appendix 2, revised October 2026). Where a service has no published data, the rate of the matching formal-sector service is used. Where there is no matching formal-sector service, the highest rate reported for any service is used. This way, a service is not shown as safer only because less evidence exists about it. The model does not use gestational age (how far the pregnancy has progressed) to vary complication rates. It uses the estimates for abortions under 12 weeks, except for dilation and evacuation, which is only performed at 12 weeks or later, so the estimates for 12 weeks or later are used for it.
 
 **Calculation:**
 

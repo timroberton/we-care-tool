@@ -181,7 +181,7 @@ export function AssumptionsTab(p: ParamEditorProps) {
                     <For each={service.complicationRates}>
                       {(rate) => (
                         <td class="px-3 py-2 text-center text-base-content/70">
-                          {(rate * 100).toFixed(1)}%
+                          {formatRate(rate)}
                         </td>
                       )}
                     </For>
@@ -204,7 +204,7 @@ export function AssumptionsTab(p: ParamEditorProps) {
                     <For each={service.complicationRates}>
                       {(rate) => (
                         <td class="px-3 py-2 text-center text-base-content/70">
-                          {(rate * 100).toFixed(1)}%
+                          {formatRate(rate)}
                         </td>
                       )}
                     </For>
@@ -219,6 +219,10 @@ export function AssumptionsTab(p: ParamEditorProps) {
   );
 }
 
+function formatRate(rate: number): string {
+  return `${(rate * 100).toFixed(2)}%`;
+}
+
 function handleDownloadComplicationRates() {
   const rows: string[][] = [];
 
@@ -227,9 +231,7 @@ function handleDownloadComplicationRates() {
   rows.push([t("Facility services"), ...Array(_COMPLICATIONS.length).fill("")]);
 
   _FORMAL_SERVICES.forEach((service) => {
-    const rates = service.complicationRates.map(
-      (rate) => `${(rate * 100).toFixed(1)}%`
-    );
+    const rates = service.complicationRates.map(formatRate);
     rows.push([td(service.label), ...rates]);
   });
 
@@ -239,9 +241,7 @@ function handleDownloadComplicationRates() {
   ]);
 
   _OUT_OF_FACILITY_SERVICES.forEach((service) => {
-    const rates = service.complicationRates.map(
-      (rate) => `${(rate * 100).toFixed(1)}%`
-    );
+    const rates = service.complicationRates.map(formatRate);
     rows.push([td(service.label), ...rates]);
   });
 

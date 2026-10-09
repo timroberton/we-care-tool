@@ -161,7 +161,7 @@ Les services d'avortement comportent des risques de complications variables. Le 
 
 **Taux de complications spécifiques aux services :**
 
-Chaque service a des taux de complications dérivés empiriquement. Les méthodes sécurisées (avortement médicamenteux avec agent de santé compétent, aspiration par le vide) ont des taux de complications substantiellement plus bas que les méthodes moins sécurisées (D&C, médicaments sans soutien d'agent de santé) ou les méthodes les moins sécurisées (pratiques traditionnelles dangereuses).
+Chaque service a des taux de complications compilés par l'OMS à partir d'études publiées (Annexe 2, révisée en octobre 2026). Lorsqu'un service ne dispose d'aucune donnée publiée, on utilise le taux du service correspondant du secteur formel. S'il n'existe pas de service correspondant dans le secteur formel, on utilise le taux le plus élevé rapporté pour n'importe quel service. Ainsi, un service n'apparaît pas comme plus sûr simplement parce qu'il est moins documenté. Le modèle n'utilise pas l'âge gestationnel (le stade d'avancement de la grossesse) pour faire varier les taux de complications. Il utilise les estimations pour les avortements de moins de 12 semaines, sauf pour la dilatation et évacuation, qui n'est pratiquée qu'à partir de 12 semaines et pour laquelle on utilise donc les estimations à 12 semaines ou plus.
 
 **Calcul :**
 

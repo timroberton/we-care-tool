@@ -48,7 +48,7 @@ The model projects abortion care outcomes through a sequential calculation casca
 ## COMPLICATIONS → Who experiences complications
 
 - Each service has specific complication rates (6 types: moderate and severe)
-- Safe services have lower complication rates than less safe or least safe services
+- Rates compiled by WHO from published studies (Appendix 2, revised October 2026); where a service has no data, the matching formal-sector rate or the highest reported rate is used, and the <12-week estimates apply except for D&E
 - Those without complications return to non-pregnant state
 
 ## POST-ABORTION CARE → Treatment of complications

@@ -6,16 +6,21 @@ export type Service = {
   complicationRates: number[];
 };
 
+// Point estimates from "We Care_ Appendix 2 Revised_2026.10.08.xlsx", sheet
+// "Appendix 2 - update" (WHO, October 2026), in _COMPLICATIONS order:
+// incomplete, continuing, infection, trauma, hemorrhage, other.
+// The model has no gestational-age split, so the <12-week band is used.
+// D&E is only performed at >=12 weeks, so D&E services use that band.
 const _COMPLICATION_RATES = {
-  _Miso_Mife_HW: [0.025, 0.005, 0.005, 0.0, 0.01, 0.01],
-  _Vac_DE_HW: [0.01, 0.001, 0.001, 0.005, 0.001, 0.001],
-  _DC_HW: [0.01, 0.001, 0.04, 0.045, 0.05, 0.2],
-  _Miso_Mife_NOHEALTHWORKER: [0.04, 0.04, 0.04, 0.045, 0.05, 0.2],
-  _Vac_DE_NOHEALTHWORKER: [0.01, 0.001, 0.04, 0.045, 0.05, 0.2],
-  _DC_NOHEALTHWORKER: [0.01, 0.001, 0.04, 0.045, 0.05, 0.2].map((v) => v * 2),
-  // Out-of-facility
-  // _Miso_Mife_NOHEALTHWORKER_OUTSIDE: [0.04, 0.04, 0.3295, 0.0, 0.05, 0.2],
-  _OTHER_OUTSIDE: [0.04, 0.04, 0.33, 0.085, 0.09, 0.38],
+  FORMAL_MIFE_MISO: [0.029, 0.007, 0.005, 0.0004, 0.0014, 0.0008],
+  FORMAL_MISO: [0.054, 0.015, 0.0045, 0.0004, 0.003, 0.0008],
+  FORMAL_VA: [0.01, 0.0016, 0.01, 0.0008, 0.0013, 0.0003],
+  FORMAL_DE: [0.015, 0, 0.016, 0.04, 0.066, 0.001],
+  FORMAL_DC: [0.003, 0.0016, 0.024, 0.0004, 0.0002, 0.0003],
+  INFORMAL_MIFE_MISO: [0.029, 0.007, 0.007, 0.0004, 0.002, 0.0008],
+  INFORMAL_MISO: [0.054, 0.015, 0.0045, 0.0004, 0.003, 0.0008],
+  INFORMAL_OTHER: [0.054, 0.015, 0.024, 0.0008, 0.004, 0.0008],
+  INFORMAL_OTHER_GE12: [0.12, 0.038, 0.024, 0.04, 0.066, 0.0015],
 };
 
 // Array order matters: services are allocated items in priority order
@@ -26,14 +31,14 @@ export const _FORMAL_SERVICES: Service[] = [
     label: "Misoprostol and mifepristone",
     componentCombos: [["hw", "miso", "mife"]],
     safety: "safe",
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_MIFE_MISO],
   },
   {
     id: "facility02",
     label: "Misoprostol only",
     componentCombos: [["hw", "miso"]],
     safety: "safe",
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_MISO],
   },
   {
     id: "facility03",
@@ -42,7 +47,7 @@ export const _FORMAL_SERVICES: Service[] = [
       ["hw", "vacasp", "latexgloves", "antiseptic", "antibiotics"],
     ],
     safety: "safe",
-    complicationRates: [..._COMPLICATION_RATES._Vac_DE_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_VA],
   },
   {
     id: "facility04",
@@ -51,49 +56,49 @@ export const _FORMAL_SERVICES: Service[] = [
       ["hw", "dilevac", "latexgloves", "antiseptic", "antibiotics"],
     ],
     safety: "safe",
-    complicationRates: [..._COMPLICATION_RATES._Vac_DE_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_DE],
   },
   {
     id: "facility05",
     label: "Dilation and curettage",
     componentCombos: [["hw", "dilcur", "latexgloves", "antiseptic"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._DC_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_DC],
   },
   {
     id: "facility06",
     label: "Misoprostol and mifepristone, without a competent health worker",
     componentCombos: [["miso", "mife"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_MIFE_MISO],
   },
   {
     id: "facility07",
     label: "Misoprostol only, without a competent health worker",
     componentCombos: [["miso"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_MISO],
   },
   {
     id: "facility08",
     label: "Vacuum aspiration, without a competent health worker",
     componentCombos: [["vacasp", "latexgloves", "antiseptic", "antibiotics"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._Vac_DE_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_OTHER],
   },
   {
     id: "facility09",
     label: "Dilation and evacuation, without a competent health worker",
     componentCombos: [["dilevac", "latexgloves", "antiseptic", "antibiotics"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._Vac_DE_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_OTHER_GE12],
   },
   {
     id: "facility10",
     label: "Dilation and curettage, without a competent health worker",
     componentCombos: [["dilcur", "latexgloves", "antiseptic"]],
     safety: "least",
-    complicationRates: [..._COMPLICATION_RATES._DC_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_OTHER],
   },
 ];
 
@@ -114,35 +119,35 @@ export const _OUT_OF_FACILITY_SERVICES: Service[] = [
     label: "Misoprostol and mifepristone",
     safety: "safe",
     componentCombos: [["hw", "miso", "mife"]],
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_MIFE_MISO],
   },
   {
     id: "outOfFacility2",
     label: "Misoprostol only",
     safety: "safe",
     componentCombos: [["hw", "miso"]],
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_HW],
+    complicationRates: [..._COMPLICATION_RATES.FORMAL_MISO],
   },
   {
     id: "outOfFacility3",
     label: "Misoprostol and mifepristone, without a competent health worker",
     componentCombos: [["miso", "mife"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_MIFE_MISO],
   },
   {
     id: "outOfFacility4",
     label: "Misoprostol only, without a competent health worker",
     componentCombos: [["miso"]],
     safety: "less",
-    complicationRates: [..._COMPLICATION_RATES._Miso_Mife_NOHEALTHWORKER],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_MISO],
   },
   {
     id: "outOfFacility5",
     label: "All other out-of-facility services",
     safety: "least",
     componentCombos: [["other"]],
-    complicationRates: [..._COMPLICATION_RATES._OTHER_OUTSIDE],
+    complicationRates: [..._COMPLICATION_RATES.INFORMAL_OTHER],
   },
 ];
 
